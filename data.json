@@ -1,0 +1,193 @@
+{
+    "nodes": {
+        "types": {
+            "head": [
+                {
+                    "id": "1a",
+                    "name": "Koç",
+                    "type": "head"
+                }
+            ],
+            "company": [
+                {
+                    "id": "2b",
+                    "name": "Arçelik",
+                    "type": "company"
+                },
+                {
+                    "id": "3c",
+                    "name": "Beko",
+                    "type": "company"
+                },
+                {
+                    "id": "219d793d-4399-4589-a298-9497d773fa36",
+                    "name": "Avis",
+                    "type": "company"
+                }
+            ],
+            "department": [
+                {
+                    "id": "4d",
+                    "name": "Arçelik Yazılım",
+                    "type": "department"
+                },
+                {
+                    "id": "5e",
+                    "name": "Arçelik Üretim",
+                    "type": "department"
+                },
+                {
+                    "id": "6f",
+                    "name": "Arçelik Kalite",
+                    "type": "department"
+                },
+                {
+                    "id": "7g",
+                    "name": "Beko Yazılım",
+                    "type": "department"
+                },
+                {
+                    "id": "8h",
+                    "name": "Beko Üretim",
+                    "type": "department"
+                },
+                {
+                    "id": "9i",
+                    "name": "Beko Kalite",
+                    "type": "department"
+                },
+                {
+                    "id": "e361342c-7d67-4afe-b7c9-8e8b19fed191",
+                    "name": "Avis Motor",
+                    "type": "department"
+                }
+            ],
+            "employee": [
+                {
+                    "id": "10j",
+                    "type": "employee",
+                    "parentCompany": "Beko",
+                    "parentDepartment": "Beko Üretim",
+                    "sicil": "26094956",
+                    "name": "Deniz Yılmaz",
+                    "birt_of_day": "07-12-1998",
+                    "university": "Biruni Üniversitesi",
+                    "school_department": "Mechanical Engineering",
+                    "job_start_date": "08/11/2020",
+                    "position": "Machine Engineer",
+                    "sex": "female",
+                    "hometown": "Manisa",
+                    "profile_picture": "https://randomuser.me/api/portraits/women/57.jpg"
+                },
+                {
+                    "id": "11k",
+                    "type": "employee",
+                    "parentCompany": "Arçelik",
+                    "parentDepartment": "Arçelik Yazılım",
+                    "sicil": "89012345",
+                    "name": "Enes Aydoğdu",
+                    "birt_of_day": "07-12-2000",
+                    "university": "Fırat Üniversitesi",
+                    "school_department": "Software Engineering",
+                    "job_start_date": "04 25 2024",
+                    "position": "Software Engineer",
+                    "sex": "male",
+                    "hometown": "İzmit",
+                    "profile_picture": "https://randomuser.me/api/portraits/men/75.jpg"
+                },
+                {
+                    "id": "f4f78104-0121-4f14-aa02-3bccbcfc7a6b",
+                    "type": "employee",
+                    "parentCompany": "Avis",
+                    "sicil": "",
+                    "name": "Ahmet Eren Kaya",
+                    "birt_of_day": "",
+                    "university": "",
+                    "school_department": "",
+                    "job_start_date": "",
+                    "position": "",
+                    "sex": "male",
+                    "hometown": "",
+                    "profile_picture": "https://via.placeholder.com/150"
+                }
+            ]
+        }
+    },
+    "links": [
+        {
+            "source": "1a",
+            "target": "2b",
+            "id": "e51d",
+            "description": "Koç to Arçelik"
+        },
+        {
+            "source": "1a",
+            "target": "3c",
+            "id": "f7b4",
+            "description": "Koç to Beko"
+        },
+        {
+            "source": "2b",
+            "target": "4d",
+            "id": "c146",
+            "description": "Arçelik to Arçelik Yazılım"
+        },
+        {
+            "source": "2b",
+            "target": "6f",
+            "id": "6e41",
+            "description": "Arçelik to Arçelik Kalite"
+        },
+        {
+            "source": "2b",
+            "target": "5e",
+            "id": "8d12",
+            "description": "Arçelik to Arçelik Üretim"
+        },
+        {
+            "source": "3c",
+            "target": "7g",
+            "id": "1629",
+            "description": "Beko to Beko Yazılım"
+        },
+        {
+            "source": "3c",
+            "target": "9i",
+            "id": "693e",
+            "description": "Beko to Beko Kalite"
+        },
+        {
+            "source": "3c",
+            "target": "8h",
+            "id": "cedb",
+            "description": "Beko to Beko Üretim"
+        },
+        {
+            "source": "10j",
+            "target": "8h",
+            "id": "6d40",
+            "description": "Deniz Yılmaz to Beko Üretim"
+        },
+        {
+            "source": "11k",
+            "target": "4d",
+            "id": "f2b4",
+            "description": "Enes Aydoğdu to Arçelik Yazılım"
+        },
+        {
+            "source": "1a",
+            "target": "219d793d-4399-4589-a298-9497d773fa36",
+            "description": "Koç to Avis"
+        },
+        {
+            "source": "219d793d-4399-4589-a298-9497d773fa36",
+            "target": "e361342c-7d67-4afe-b7c9-8e8b19fed191",
+            "description": "Avis to Avis Motor"
+        },
+        {
+            "source": "f4f78104-0121-4f14-aa02-3bccbcfc7a6b",
+            "target": "e361342c-7d67-4afe-b7c9-8e8b19fed191",
+            "description": "Ahmet Eren Kaya to Avis Motor"
+        }
+    ]
+}
