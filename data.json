@@ -18,11 +18,6 @@
                     "id": "3c",
                     "name": "Beko",
                     "type": "company"
-                },
-                {
-                    "id": "219d793d-4399-4589-a298-9497d773fa36",
-                    "name": "Avis",
-                    "type": "company"
                 }
             ],
             "department": [
@@ -55,62 +50,167 @@
                     "id": "9i",
                     "name": "Beko Kalite",
                     "type": "department"
-                },
-                {
-                    "id": "e361342c-7d67-4afe-b7c9-8e8b19fed191",
-                    "name": "Avis Motor",
-                    "type": "department"
                 }
             ],
-            "employee": [
-                {
-                    "id": "10j",
-                    "type": "employee",
-                    "parentCompany": "Beko",
-                    "parentDepartment": "Beko Üretim",
-                    "sicil": "26094956",
-                    "name": "Deniz Yılmaz",
-                    "birt_of_day": "07-12-1998",
-                    "university": "Biruni Üniversitesi",
-                    "school_department": "Mechanical Engineering",
-                    "job_start_date": "08/11/2020",
-                    "position": "Machine Engineer",
-                    "sex": "female",
-                    "hometown": "Manisa",
-                    "profile_picture": "https://randomuser.me/api/portraits/women/57.jpg"
-                },
-                {
-                    "id": "11k",
-                    "type": "employee",
-                    "parentCompany": "Arçelik",
-                    "parentDepartment": "Arçelik Yazılım",
-                    "sicil": "89012345",
-                    "name": "Enes Aydoğdu",
-                    "birt_of_day": "07-12-2000",
-                    "university": "Fırat Üniversitesi",
-                    "school_department": "Software Engineering",
-                    "job_start_date": "04 25 2024",
-                    "position": "Software Engineer",
-                    "sex": "male",
-                    "hometown": "İzmit",
-                    "profile_picture": "https://randomuser.me/api/portraits/men/75.jpg"
-                },
-                {
-                    "id": "f4f78104-0121-4f14-aa02-3bccbcfc7a6b",
-                    "type": "employee",
-                    "parentCompany": "Avis",
-                    "sicil": "",
-                    "name": "Ahmet Eren Kaya",
-                    "birt_of_day": "",
-                    "university": "",
-                    "school_department": "",
-                    "job_start_date": "",
-                    "position": "",
-                    "sex": "male",
-                    "hometown": "",
-                    "profile_picture": "https://via.placeholder.com/150"
-                }
-            ]
+            "employee": {
+                "workers": [
+                    {
+                        "id": "10j",
+                        "type": "workers",
+                        "parentCompany": "Beko",
+                        "parentDepartment": "Beko Üretim",
+                        "isTeamLead": "false",
+                        "sicil": "26094956",
+                        "name": "Deniz Yılmaz",
+                        "birt_of_day": "07-12-1998",
+                        "university": "Biruni Üniversitesi",
+                        "school_department": "Mechanical Engineering",
+                        "job_start_date": "08/11/2020",
+                        "position": "Machine Engineer",
+                        "sex": "female",
+                        "hometown": "Manisa",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/57.jpg"
+                    },
+                    {
+                        "id": "11k",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Yazılım",
+                        "parentLead": "Kaan Gencay",
+                        "isTeamLead": "false",
+                        "sicil": "89012345",
+                        "name": "Enes Aydoğdu",
+                        "birt_of_day": "07-12-2000",
+                        "university": "Fırat Üniversitesi",
+                        "school_department": "Software Engineering",
+                        "job_start_date": "04 25 2024",
+                        "position": "Software Engineer",
+                        "sex": "male",
+                        "hometown": "İzmit",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/75.jpg"
+                    },
+                    {
+                        "id": "fed9b49c-1f84-4e44-bc01-fa18706a9831",
+                        "type": "workers",
+                        "parentCompany": "Beko",
+                        "isTeamLead": "false",
+                        "parentLead": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
+                        "sicil": "3123123",
+                        "name": "Ümiz Özdağ",
+                        "birt_of_day": "",
+                        "university": "",
+                        "school_department": "",
+                        "job_start_date": "",
+                        "position": "",
+                        "sex": "male",
+                        "hometown": "",
+                        "profile_picture": "https://via.placeholder.com/150"
+                    },
+                    {
+                        "id": "a0a2c8fc-aa91-4d1a-be0f-c68cc871d047",
+                        "type": "workers",
+                        "parentCompany": "Beko",
+                        "isTeamLead": "false",
+                        "parentLead": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
+                        "sicil": "e31",
+                        "name": "gAKKO2",
+                        "birt_of_day": "",
+                        "university": "",
+                        "school_department": "",
+                        "job_start_date": "",
+                        "position": "",
+                        "sex": "male",
+                        "hometown": "",
+                        "profile_picture": "https://via.placeholder.com/150"
+                    },
+                    {
+                        "id": "e4914d8b-f23a-477f-98b2-edd814d338b9",
+                        "type": "workers",
+                        "parentCompany": "Beko",
+                        "isTeamLead": "false",
+                        "parentLead": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
+                        "sicil": "123\"",
+                        "name": "123",
+                        "birt_of_day": "",
+                        "university": "",
+                        "school_department": "",
+                        "job_start_date": "",
+                        "position": "",
+                        "sex": "male",
+                        "hometown": "",
+                        "profile_picture": "https://via.placeholder.com/150"
+                    },
+                    {
+                        "id": "580a3d12-9c1c-4ada-8570-e3a354e3a9fc",
+                        "type": "workers",
+                        "parentCompany": "Beko",
+                        "isTeamLead": "false",
+                        "parentLead": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
+                        "sicil": "13123",
+                        "name": "1231231",
+                        "birt_of_day": "",
+                        "university": "",
+                        "school_department": "",
+                        "job_start_date": "",
+                        "position": "",
+                        "sex": "male",
+                        "hometown": "",
+                        "profile_picture": "https://via.placeholder.com/150"
+                    },
+                    {
+                        "id": "606ae6d0-af83-49d2-a684-ecc476669916",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "isTeamLead": "false",
+                        "parentLead": "63f60a0d-9d99-415b-9e7a-d3669abba938",
+                        "sicil": "13",
+                        "name": "enesis",
+                        "birt_of_day": "",
+                        "university": "",
+                        "school_department": "",
+                        "job_start_date": "",
+                        "position": "",
+                        "sex": "male",
+                        "hometown": "",
+                        "profile_picture": "https://via.placeholder.com/150"
+                    }
+                ],
+                "teamLeads": [
+                    {
+                        "id": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
+                        "type": "teamLeads",
+                        "parentCompany": "Beko",
+                        "parentDepartment": "Beko Yazılım",
+                        "isTeamLead": "true",
+                        "sicil": "",
+                        "name": "OSMAN OSMAN",
+                        "birt_of_day": "",
+                        "university": "",
+                        "school_department": "",
+                        "job_start_date": "",
+                        "position": "",
+                        "sex": "male",
+                        "hometown": "",
+                        "profile_picture": "https://via.placeholder.com/150"
+                    },
+                    {
+                        "id": "63f60a0d-9d99-415b-9e7a-d3669abba938",
+                        "type": "teamLeads",
+                        "parentCompany": "Arçelik",
+                        "isTeamLead": "true",
+                        "sicil": "123",
+                        "name": "Kaan Gencay",
+                        "birt_of_day": "",
+                        "university": "",
+                        "school_department": "",
+                        "job_start_date": "",
+                        "position": "",
+                        "sex": "male",
+                        "hometown": "",
+                        "profile_picture": "https://via.placeholder.com/150"
+                    }
+                ]
+            }
         }
     },
     "links": [
@@ -175,19 +275,39 @@
             "description": "Enes Aydoğdu to Arçelik Yazılım"
         },
         {
-            "source": "1a",
-            "target": "219d793d-4399-4589-a298-9497d773fa36",
-            "description": "Koç to Avis"
+            "source": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
+            "target": "7g",
+            "description": "OSMAN OSMAN to Beko Yazılım"
         },
         {
-            "source": "219d793d-4399-4589-a298-9497d773fa36",
-            "target": "e361342c-7d67-4afe-b7c9-8e8b19fed191",
-            "description": "Avis to Avis Motor"
+            "source": "fed9b49c-1f84-4e44-bc01-fa18706a9831",
+            "target": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
+            "description": "Ümiz Özdağ to Beko Yazılım"
         },
         {
-            "source": "f4f78104-0121-4f14-aa02-3bccbcfc7a6b",
-            "target": "e361342c-7d67-4afe-b7c9-8e8b19fed191",
-            "description": "Ahmet Eren Kaya to Avis Motor"
+            "source": "a0a2c8fc-aa91-4d1a-be0f-c68cc871d047",
+            "target": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
+            "description": "gAKKO2 to Beko Yazılım.. Team Lead is: OSMAN OSMAN"
+        },
+        {
+            "source": "e4914d8b-f23a-477f-98b2-edd814d338b9",
+            "target": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
+            "description": "123 to Beko Yazılım.. Team Lead is: OSMAN OSMAN"
+        },
+        {
+            "source": "580a3d12-9c1c-4ada-8570-e3a354e3a9fc",
+            "target": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
+            "description": "1231231 to Beko Yazılım.. Team Lead is: OSMAN OSMAN"
+        },
+        {
+            "source": "63f60a0d-9d99-415b-9e7a-d3669abba938",
+            "target": "4d",
+            "description": "Kaan Gencay to Arçelik Yazılım as a Team Lead"
+        },
+        {
+            "source": "606ae6d0-af83-49d2-a684-ecc476669916",
+            "target": "63f60a0d-9d99-415b-9e7a-d3669abba938",
+            "description": "enesis to Arçelik Yazılım.. Team Lead is: Kaan Gencay"
         }
     ]
 }

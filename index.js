@@ -47,7 +47,42 @@ app.get('/nodes/types/employee', (req, res) => {
     res.send(employee);
 });
 
+app.get('/nodes/types/employee/workers', (req, res) => {
+    const workers = data.nodes.types.employee.workers;
+    res.send(workers);
+});
+app.get('/nodes/types/employee/teamLeads', (req, res) => {
+    const teamLeads = data.nodes.types.employee.teamLeads;
+    res.send(teamLeads);
+});
 
+app.post('/nodes', (req, res) => {
+    data.nodes.push(req.body);
+
+    // Verileri data.json dosyasına yaz
+    fs.writeFile('./data.json', JSON.stringify(data), (err) => {
+        if (err) {
+            console.error('Hata:', err);
+            res.status(500).send('Veri dosyasına yazma hatası');
+        } else {
+            res.send("Success");
+        }
+    });
+});
+
+app.post('/links', (req, res) => {
+    data.links.push(req.body);
+
+    // Verileri data.json dosyasına yaz
+    fs.writeFile('./data.json', JSON.stringify(data), (err) => {
+        if (err) {
+            console.error('Hata:', err);
+            res.status(500).send('Veri dosyasına yazma hatası');
+        } else {
+            res.send("Success");
+        }
+    });
+});
 
 
 app.post('/nodes/types/company', (req, res) => {
@@ -93,8 +128,35 @@ app.post('/nodes/types/employee', (req, res) => {
         }
     });
 });
+app.post('/nodes/types/employee/workers', (req, res) => {
+   
+    data.nodes.types.employee.workers.push(req.body);
 
+    // Verileri data.json dosyasına yaz
+    fs.writeFile('./data.json', JSON.stringify(data), (err) => {
+        if (err) {
+            console.error('Hata:', err);
+            res.status(500).send('Veri dosyasına yazma hatası');
+        } else {
+            res.send("Success");
+        }
+    });
+});
 
+app.post('/nodes/types/employee/teamLeads', (req, res) => {
+   
+    data.nodes.types.employee.teamLeads.push(req.body);
+
+    // Verileri data.json dosyasına yaz
+    fs.writeFile('./data.json', JSON.stringify(data), (err) => {
+        if (err) {
+            console.error('Hata:', err);
+            res.status(500).send('Veri dosyasına yazma hatası');
+        } else {
+            res.send("Success");
+        }
+    });
+});
 
 app.post('/links', (req, res) => {
     const { source, target } = req.body;
