@@ -5,209 +5,651 @@
                 {
                     "id": "1a",
                     "name": "Koç",
-                    "type": "head"
+                    "type": "head",
+                    "kurulusTarihi": "1926",
+                    "logo": "https://www.pdi.com.tr/assets/image/pdi/references/10-Koc-Holding.png",
+                    "ceo": "Ali Koç",
+                    "cto": "Bilgi bulunmamaktadır",
+                    "vizyon": "Türkiye'nin lider şirketi olarak sürdürülebilir bir gelecek inşa etmek.",
+                    "misyon": "Müşterilerimize ve topluma değer katmak için kaliteli ürün ve hizmetler sunmak.",
+                    "calisanSayisi": "80.000 (2022)"
                 }
             ],
             "company": [
                 {
                     "id": "2b",
                     "name": "Arçelik",
-                    "type": "company"
+                    "type": "company",
+                    "logo" : "https://www.arcelikglobal.com/media/2828/arcelik_logo_kirmizi.png",
+                    "kurulusTarihi":"1955",
+                    "ceo" : "Hakan Bulgurlu (2022)",
+                    "cto" : "Polat Şen (2022)",
+                    "vizyon" : "Sürdürülebilir teknolojilerle dünyadaki yaşam kalitesini artırmak..",
+                    "misyon" : "Müşterilerimizin ve çalışanlarımızın hayatını daha iyi bir hale getirmek için yenilikçi, sürdürülebilir ve teknolojik çözümler sunmak..",
+                    "calisanSayisi":"30.000 (2022)"
                 },
                 {
                     "id": "3c",
                     "name": "Beko",
-                    "type": "company"
+                    "type": "company",
+                    "logo" : "https://www.arcelikglobal.com/media/2853/beko_logo.png",
+                    "kurulusTarihi": "1989",
+                    "ceo": "Fatih Kemal Ebiçlioğlu (2017)",
+                    "cto": "Polat Şen (2022)",
+                    "vizyon": "Sürdürülebilir teknolojilerle evlerin yaşam kalitesini yükseltmek.",
+                    "misyon": "Müşterilerimize yenilikçi ve çevreci ürünler sunarak hayatlarını kolaylaştırmak ve çevreye duyarlı bir şekilde faaliyet göstermek.",
+                    "calisanSayisi": "25.000 (2022)"
+                },
+                {
+                    "id": "60b4ec03-c3c6-409d-ac1b-473262ad8ee6",
+                    "name": "Grundig",
+                    "type": "company",
+                    "logo" :"https://cdn.freebiesupply.com/logos/large/2x/grundig-logo-png-transparent.png",
+                    "kurulusTarihi": "1945",
+                    "ceo": "Murat Öztürk",
+                    "cto": "Bilgi bulunmamaktadır",
+                    "vizyon": "Kaliteli ürünlerle kullanıcı deneyimini en üst seviyede tutmak.",
+                    "misyon": "Müşteri odaklı yaklaşımla, yenilikçi ve çevreci ürünler üretmek.",
+                    "calisanSayisi": "10.000 (2022)"
+                },
+                {
+                    "id": "16fe6dbb-7d8f-479e-84f6-0d8765aa90ed",
+                    "name": "Otokar",
+                    "type": "company",
+                    "logo": "https://www.logo.wine/a/logo/Otokar/Otokar-Logo.wine.svg" ,
+                    "kurulusTarihi": "1963",
+                    "ceo": "Serkan Yıldırım",
+                    "cto": "Bilgi bulunmamaktadır",
+                    "vizyon": "Yenilikçi ve güvenilir araçlarla mobilite çözümlerinde lider olmak.",
+                    "misyon": "Müşteri ihtiyaçlarına uygun çevreci ve ekonomik taşıma çözümleri sunmak.",
+                    "calisanSayisi": "5000 (2022)"
+                },
+                {
+                    "id": "9b834121-c193-4750-bb5f-d8eba0431553",
+                    "name": "Opet",
+                    "type": "company",
+                    "logo": "https://cdn-www.dataroid.com/wp-content/uploads/2021/07/opet_dataroid.png",
+                    "kurulusTarihi": "1992",
+                    "ceo": "Cüneyt Ağca",
+                    "cto": "Bilgi bulunmamaktadır",
+                    "vizyon": "Enerji sektöründe sürdürülebilir bir gelecek için liderlik yapmak.",
+                    "misyon": "Müşteri odaklı yaklaşımla, çevreci ve yenilikçi enerji çözümleri sunmak.",
+                    "calisanSayisi": "5000 (2022)"
+                },
+                {
+                    "id": "06d5d010-dd63-49cb-a25c-9898cf572e50",
+                    "name": "Avis",
+                    "type": "company",
+                    "logo": "https://freepngdesign.com/content/uploads/images/p-1663-3-avis-logo-png-transparent-logo-403920539360.png",
+                    "kurulusTarihi": "1946",
+                    "ceo": "Joe Ferraro",
+                    "cto": "Bilgi bulunmamaktadır",
+                    "vizyon": "Müşterilerimize en iyi araç kiralama deneyimini sunmak.",
+                    "misyon": "Müşterilerimizin ihtiyaçlarına uygun, kaliteli ve güvenilir araç kiralama hizmetleri sunmak.",
+                    "calisanSayisi": "30.000 (2022)"
                 }
             ],
             "department": [
                 {
                     "id": "4d",
                     "name": "Arçelik Yazılım",
-                    "type": "department"
+                    "type": "department",
+                    "parentCompany": "Arçelik"
                 },
                 {
                     "id": "5e",
                     "name": "Arçelik Üretim",
-                    "type": "department"
+                    "type": "department",
+                    "parentCompany": "Arçelik"
                 },
                 {
                     "id": "6f",
                     "name": "Arçelik Kalite",
-                    "type": "department"
+                    "type": "department",
+                    "parentCompany": "Arçelik"
                 },
                 {
                     "id": "7g",
                     "name": "Beko Yazılım",
-                    "type": "department"
+                    "type": "department",
+                    "parentCompany": "Beko"
                 },
                 {
                     "id": "8h",
                     "name": "Beko Üretim",
-                    "type": "department"
+                    "type": "department",
+                    "parentCompany": "Beko"
                 },
                 {
                     "id": "9i",
                     "name": "Beko Kalite",
-                    "type": "department"
+                    "type": "department",
+                    "parentCompany": "Beko"
+                },
+                {
+                    "id": "b07f89ce-8ab3-4794-9f6c-4d744bfc5330",
+                    "name": "Avis Yazılım",
+                    "type": "department",
+                    "parentCompany": "Avis"
+                },
+                {
+                    "id": "bd10a2f4-e155-4864-bee4-85ae76639fdf",
+                    "name": "Avis Kalite",
+                    "type": "department",
+                    "parentCompany": "Avis"
+                },
+                {
+                    "id": "951fcf4b-1204-4155-9bff-c7bc8cd08b8d",
+                    "name": "Avis Üretim",
+                    "type": "department",
+                    "parentCompany": "Avis"
+                },
+                {
+                    "id": "675996ad-0ad2-4204-8e6a-d97d0f692c95",
+                    "name": "Grundig Yazılım",
+                    "type": "department",
+                    "parentCompany": "Grundig"
+                },
+                {
+                    "id": "86b21eb5-991e-4ff4-b09c-da541f22a3ed",
+                    "name": "Grundig Üretim",
+                    "type": "department",
+                    "parentCompany": "Grundig"
+                },
+                {
+                    "id": "212de956-3bed-4b10-a988-e98fea5b9a78",
+                    "name": "Grundig Kalite",
+                    "type": "department",
+                    "parentCompany": "Grundig"
+                },
+                {
+                    "id": "7b2e84df-f560-4bb6-b601-85da25b543fb",
+                    "name": "Otokar Üretim",
+                    "type": "department",
+                    "parentCompany": "Otokar"
+                },
+                {
+                    "id": "843972c2-63b7-4b9c-9a08-45a21afd61e7",
+                    "name": "Otokar Kalite",
+                    "type": "department",
+                    "parentCompany": "Otokar"
+                },
+                {
+                    "id": "f1c98cf4-d0de-40b6-9b89-e7cf3165b518",
+                    "name": "Otokar Yazılım",
+                    "type": "department",
+                    "parentCompany": "Otokar"
+                },
+                {
+                    "id": "5665ba6d-ad09-4bb7-91fb-a7564e3f8966",
+                    "name": "Opet Yazılım",
+                    "type": "department",
+                    "parentCompany": "Opet"
+                },
+                {
+                    "id": "bea91d92-efa6-425c-b36f-d7fd39de5b35",
+                    "name": "Arçelik İnsan Kaynakları",
+                    "type": "department",
+                    "parentCompany": "Arçelik"
+                },
+                {
+                    "id": "bb8cb179-3465-477c-a4b7-9e3ace5fae61",
+                    "name": "Arçelik Bilgi Teknolojileri",
+                    "type": "department",
+                    "parentCompany": "Arçelik"
+                },
+                {
+                    "id": "f8b40d38-c7fe-49c4-a10a-4fd178ac26d1",
+                    "name": "Beko İnsan Kaynakları",
+                    "type": "department",
+                    "parentCompany": "Beko"
+                },
+                {
+                    "id": "f42e9c51-072d-4e85-bbd6-06559bfd23b2",
+                    "name": "Beko Bilgi Teknolojileri",
+                    "type": "department",
+                    "parentCompany": "Beko"
+                },
+                {
+                    "id": "b502368c-9292-4715-8832-e122d0a6a6de",
+                    "name": "Grundig İnsan Kaynakları",
+                    "type": "department",
+                    "parentCompany": "Grundig"
+                },
+                {
+                    "id": "e3d6ee05-4cde-4aca-9e29-0ab160f946dc",
+                    "name": "Otokar İnsan Kaynakları",
+                    "type": "department",
+                    "parentCompany": "Otokar"
+                },
+                {
+                    "id": "ddda512a-5cf0-4808-9491-7ad4b2f56d13",
+                    "name": "Opet İnsan Kaynakları",
+                    "type": "department",
+                    "parentCompany": "Opet"
+                },
+                {
+                    "id": "0703586f-ec06-4bf9-a21b-3343beea2019",
+                    "name": "Avis İnsan Kaynakları",
+                    "type": "department",
+                    "parentCompany": "Avis"
+                },
+                {
+                    "id": "39701f80-4c49-49b9-8652-0a2c7b96b0df",
+                    "name": "Grundig Bilgi Teknolojileri",
+                    "type": "department",
+                    "parentCompany": "Grundig"
+                },
+                {
+                    "id": "289ab437-bba9-45e1-9d59-bd3b55bc419c",
+                    "name": "Otokar Bilgi Teknolojileri",
+                    "type": "department",
+                    "parentCompany": "Otokar"
+                },
+                {
+                    "id": "e30f7861-9bad-4f02-a79b-efdde52e1137",
+                    "name": "Opet Bilgi Teknolojileri",
+                    "type": "department",
+                    "parentCompany": "Opet"
+                },
+                {
+                    "id": "2a2ad49d-b5a9-40a5-a75a-d9088e6d4b76",
+                    "name": "Avis Bilgi Teknolojileri",
+                    "type": "department",
+                    "parentCompany": "Avis"
+                },
+                {
+                    "id": "6b738416-8762-44b0-bffe-1722450a6706",
+                    "name": "Opet Kalite",
+                    "type": "department",
+                    "parentCompany": "Opet"
+                },
+                {
+                    "id": "d6991c9f-cb1b-4f23-b7b0-d16315671ef2",
+                    "name": "Opet Üretim",
+                    "type": "department",
+                    "parentCompany": "Opet"
                 }
             ],
             "employee": {
                 "workers": [
                     {
-                        "id": "10j",
-                        "type": "workers",
-                        "parentCompany": "Beko",
-                        "parentDepartment": "Beko Üretim",
-                        "isTeamLead": "false",
-                        "sicil": "26094956",
-                        "name": "Deniz Yılmaz",
-                        "birt_of_day": "07-12-1998",
-                        "university": "Biruni Üniversitesi",
-                        "school_department": "Mechanical Engineering",
-                        "job_start_date": "08/11/2020",
-                        "position": "Machine Engineer",
-                        "sex": "female",
-                        "hometown": "Manisa",
-                        "profile_picture": "https://randomuser.me/api/portraits/women/57.jpg"
-                    },
-                    {
-                        "id": "11k",
+                        "id": "d20e0439-f716-4a32-a3d2-f823a850f678",
                         "type": "workers",
                         "parentCompany": "Arçelik",
                         "parentDepartment": "Arçelik Yazılım",
+                        "isTeamLead": "false",
                         "parentLead": "Kaan Gencay",
-                        "isTeamLead": "false",
-                        "sicil": "89012345",
+                        "sicil": "26094956",
                         "name": "Enes Aydoğdu",
-                        "birt_of_day": "07-12-2000",
+                        "birt_of_day": "2001-01-03",
                         "university": "Fırat Üniversitesi",
-                        "school_department": "Software Engineering",
-                        "job_start_date": "04 25 2024",
-                        "position": "Software Engineer",
-                        "sex": "male",
-                        "hometown": "İzmit",
-                        "profile_picture": "https://randomuser.me/api/portraits/men/75.jpg"
+                        "school_department": "Yazılım Mühendisliği",
+                        "job_start_date": "2024-07-01",
+                        "position": "Engineer R&D",
+                        "sex": "Erkek",
+                        "hometown": "Bursa",
+                        "profile_picture": "https://media.licdn.com/dms/image/D4D03AQGkVrJopyP9FQ/profile-displayphoto-shrink_200_200/0/1710526635676?e=1717632000&v=beta&t=c3eRj5itcoQtPymCvvf6zijYEktSvg8tAagU5f-deSs"
                     },
                     {
-                        "id": "fed9b49c-1f84-4e44-bc01-fa18706a9831",
-                        "type": "workers",
-                        "parentCompany": "Beko",
-                        "isTeamLead": "false",
-                        "parentLead": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
-                        "sicil": "3123123",
-                        "name": "Ümiz Özdağ",
-                        "birt_of_day": "",
-                        "university": "",
-                        "school_department": "",
-                        "job_start_date": "",
-                        "position": "",
-                        "sex": "male",
-                        "hometown": "",
-                        "profile_picture": "https://via.placeholder.com/150"
-                    },
-                    {
-                        "id": "a0a2c8fc-aa91-4d1a-be0f-c68cc871d047",
-                        "type": "workers",
-                        "parentCompany": "Beko",
-                        "isTeamLead": "false",
-                        "parentLead": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
-                        "sicil": "e31",
-                        "name": "gAKKO2",
-                        "birt_of_day": "",
-                        "university": "",
-                        "school_department": "",
-                        "job_start_date": "",
-                        "position": "",
-                        "sex": "male",
-                        "hometown": "",
-                        "profile_picture": "https://via.placeholder.com/150"
-                    },
-                    {
-                        "id": "e4914d8b-f23a-477f-98b2-edd814d338b9",
-                        "type": "workers",
-                        "parentCompany": "Beko",
-                        "isTeamLead": "false",
-                        "parentLead": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
-                        "sicil": "123\"",
-                        "name": "123",
-                        "birt_of_day": "",
-                        "university": "",
-                        "school_department": "",
-                        "job_start_date": "",
-                        "position": "",
-                        "sex": "male",
-                        "hometown": "",
-                        "profile_picture": "https://via.placeholder.com/150"
-                    },
-                    {
-                        "id": "580a3d12-9c1c-4ada-8570-e3a354e3a9fc",
-                        "type": "workers",
-                        "parentCompany": "Beko",
-                        "isTeamLead": "false",
-                        "parentLead": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
-                        "sicil": "13123",
-                        "name": "1231231",
-                        "birt_of_day": "",
-                        "university": "",
-                        "school_department": "",
-                        "job_start_date": "",
-                        "position": "",
-                        "sex": "male",
-                        "hometown": "",
-                        "profile_picture": "https://via.placeholder.com/150"
-                    },
-                    {
-                        "id": "606ae6d0-af83-49d2-a684-ecc476669916",
+                        "id": "835a4d45-909b-4ad2-821e-525b254a3a0c",
                         "type": "workers",
                         "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Yazılım",
                         "isTeamLead": "false",
-                        "parentLead": "63f60a0d-9d99-415b-9e7a-d3669abba938",
-                        "sicil": "13",
-                        "name": "enesis",
-                        "birt_of_day": "",
-                        "university": "",
-                        "school_department": "",
-                        "job_start_date": "",
-                        "position": "",
-                        "sex": "male",
-                        "hometown": "",
-                        "profile_picture": "https://via.placeholder.com/150"
-                    }
+                        "parentLead": "Kaan Gencay",
+                        "sicil": "26094977",
+                        "name": "Dila Şahin",
+                        "birt_of_day": "1998-05-25",
+                        "university": "Orta Doğu Teknik Üniversitesi",
+                        "school_department": "Bilgisayar Mühendisliği",
+                        "job_start_date": "2022-05-03",
+                        "position": "Specialist Engineer R&D",
+                        "sex": "Kadın",
+                        "hometown": "Bolu",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/66.jpg"
+                    },
+                    {
+                        "id": "4c247146-26a1-4e9f-9166-3cda9b69dc76",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Yazılım",
+                        "isTeamLead": "false",
+                        "parentLead": "Kaan Gencay",
+                        "sicil": "26094971",
+                        "name": "Deniz Kaya",
+                        "birt_of_day": "1995-08-12",
+                        "university": "Boğaziçi Üniversitesi",
+                        "school_department": "Yazılım Mühendisliği",
+                        "job_start_date": "2021-07-19",
+                        "position": "Senior Engineer R&D",
+                        "sex": "Erkek",
+                        "hometown": "Trabzon",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/1.jpg"
+                    },
+                    {
+                        "id": "b08d7b55-d29e-4b8e-a936-7d51b6c2a197",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Yazılım",
+                        "isTeamLead": "false",
+                        "parentLead": "Kaan Gencay",
+                        "sicil": "73928366",
+                        "name": "Elif Demir",
+                        "birt_of_day": "1993-11-29",
+                        "university": "Hacettepe Üniversitesi",
+                        "school_department": "Bilgisayar Mühendisliği",
+                        "job_start_date": "2020-09-05",
+                        "position": "Senior Specialist Engineer R&D",
+                        "sex": "Kadın",
+                        "hometown": "İzmir",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/1.jpg"
+                    },
+                    {
+                        "id": "f6d8ab07-476e-4b24-b16c-8de8e66accc7",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Yazılım",
+                        "isTeamLead": "false",
+                        "parentLead": "Kaan Gencay",
+                        "sicil": "16293748",
+                        "name": "Ali Yılmaz",
+                        "birt_of_day": "1996-04-18",
+                        "university": "İstanbul Teknik Üniversitesi",
+                        "school_department": "Elektrik Mühendisliği",
+                        "job_start_date": "2022-03-11",
+                        "position": "Engineer R&D",
+                        "sex": "Erkek",
+                        "hometown": "Ankara",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/2.jpg"
+                    },
+                    {
+                        "id": "69b3d87e-b2db-4f20-97e8-3a8a7b92e28f",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Yazılım",
+                        "isTeamLead": "false",
+                        "parentLead": "Kaan Gencay",
+                        "sicil": "58734291",
+                        "name": "Ayşe Korkmaz",
+                        "birt_of_day": "1997-09-03",
+                        "university": "ODTÜ",
+                        "school_department": "Bilgisayar Mühendisliği",
+                        "job_start_date": "2023-01-15",
+                        "position": "Senior Specialist Engineer R&D",
+                        "sex": "Kadın",
+                        "hometown": "İstanbul",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/2.jpg"
+                    },
+                    {
+                        "id": "32d7ecb2-8e37-4e5b-b674-f4097a6cbe5d",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Yazılım",
+                        "isTeamLead": "false",
+                        "parentLead": "Kaan Gencay",
+                        "sicil": "83920164",
+                        "name": "Mert Ateş",
+                        "birt_of_day": "1994-12-07",
+                        "university": "Boğaziçi Üniversitesi",
+                        "school_department": "Yazılım Mühendisliği",
+                        "job_start_date": "2020-11-22",
+                        "position": "Engineer R&D",
+                        "sex": "Erkek",
+                        "hometown": "İzmir",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/3.jpg"
+                    },
+                    {
+                        "id": "1d541542-8b39-4db2-8916-1e179d46869b",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Yazılım",
+                        "isTeamLead": "false",
+                        "parentLead": "Kaan Gencay",
+                        "sicil": "42651837",
+                        "name": "Selin Aydın",
+                        "birt_of_day": "1998-06-19",
+                        "university": "Boğaziçi Üniversitesi",
+                        "school_department": "Elektrik Mühendisliği",
+                        "job_start_date": "2022-08-30",
+                        "position": "Senior Engineer R&D",
+                        "sex": "Kadın",
+                        "hometown": "Adana",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/3.jpg"
+                    },
+                    {
+                        "id": "ab5d3a62-4dcb-4e61-a7a2-2a44cf6d12a9",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Yazılım",
+                        "isTeamLead": "false",
+                        "parentLead": "Kaan Gencay",
+                        "sicil": "12985742",
+                        "name": "Cem Öztürk",
+                        "birt_of_day": "1993-03-26",
+                        "university": "Boğaziçi Üniversitesi",
+                        "school_department": "Yazılım Mühendisliği",
+                        "job_start_date": "2021-04-10",
+                        "position": "Senior Specialist Engineer R&D",
+                        "sex": "Erkek",
+                        "hometown": "Bursa",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/4.jpg"
+                    },
+                    {
+                        "id": "c74b0fa5-c45c-4a95-9a61-cc8a86ef228f",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Yazılım",
+                        "isTeamLead": "false",
+                        "parentLead": "Kaan Gencay",
+                        "sicil": "98234761",
+                        "name": "Zeynep Tekin",
+                        "birt_of_day": "1996-11-15",
+                        "university": "Boğaziçi Üniversitesi",
+                        "school_department": "Elektrik Mühendisliği",
+                        "job_start_date": "2023-07-25",
+                        "position": "Engineer R&D",
+                        "sex": "Kadın",
+                        "hometown": "Eskişehir",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/4.jpg"
+                    },
+                    {
+                        "id": "44337f2f-ae9f-4429-8fb3-006b4e6cb0b4",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Kalite",
+                        "isTeamLead": "false",
+                        "parentLead": "Elif Yılmaz",
+                        "sicil": "26093438",
+                        "name": "Ahmet Karasu",
+                        "birt_of_day": "1996-03-12",
+                        "university": "Dumlupınar Üniversitesi",
+                        "school_department": "Kalite Mühendisliği",
+                        "job_start_date": "2023-03-12",
+                        "position": "Engineer R&D",
+                        "sex": "Erkek",
+                        "hometown": "Kütahya",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/5.jpg"
+                    },
+                    {
+                        "id": "8cb02373-334a-4b04-9eb7-664532db43f8",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Kalite",
+                        "isTeamLead": "false",
+                        "parentLead": "Elif Yılmaz",
+                        "sicil": "23987432",
+                        "name": "Aylin Durmuş",
+                        "birt_of_day": "1994-09-28",
+                        "university": "Boğaziçi Üniversitesi",
+                        "school_department": "Kalite Mühendisliği",
+                        "job_start_date": "2022-07-15",
+                        "position": "Senior Specialist Engineer R&D",
+                        "sex": "Kadın",
+                        "hometown": "Ankara",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/5.jpg"
+                    },
+                    {
+                        "id": "7fa152e9-8827-4481-85dc-6de9e439cb0d",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Kalite",
+                        "isTeamLead": "false",
+                        "parentLead": "Elif Yılmaz",
+                        "sicil": "87523987",
+                        "name": "Sefa Arslan",
+                        "birt_of_day": "1993-12-05",
+                        "university": "Yıldız Teknik Üniversitesi",
+                        "school_department": "Kalite Mühendisliği",
+                        "job_start_date": "2021-10-30",
+                        "position": "Senior Engineer R&D",
+                        "sex": "Erkek",
+                        "hometown": "Sivas",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/6.jpg"
+                    },
+                    {
+                        "id": "be9b203c-06bb-4dd8-a07c-78dc5e7f6cb0",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Kalite",
+                        "isTeamLead": "false",
+                        "parentLead": "Elif Yılmaz",
+                        "sicil": "46781293",
+                        "name": "Zeynep Kaya",
+                        "birt_of_day": "1995-06-18",
+                        "university": "ODTÜ",
+                        "school_department": "Kalite Mühendisliği",
+                        "job_start_date": "2023-05-22",
+                        "position": "Engineer R&D",
+                        "sex": "Kadın",
+                        "hometown": "İstanbul",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/6.jpg"
+                    },
+                    {
+                        "id": "98d45345-bb6e-4fd8-ba2c-7d36ab576f29",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Kalite",
+                        "isTeamLead": "false",
+                        "parentLead": "Elif Yılmaz",
+                        "sicil": "64328971",
+                        "name": "Berkay Doğan",
+                        "birt_of_day": "1997-03-19",
+                        "university": "İstanbul Teknik Üniversitesi",
+                        "school_department": "Kalite Mühendisliği",
+                        "job_start_date": "2022-12-10",
+                        "position": "Senior Specialist Engineer R&D",
+                        "sex": "Erkek",
+                        "hometown": "Trabzon",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/7.jpg"
+                    },
+                    {
+                        "id": "2c2e65fd-9b0b-453b-ae02-04a8e8b38d4b",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Kalite",
+                        "isTeamLead": "false",
+                        "parentLead": "Elif Yılmaz",
+                        "sicil": "58213479",
+                        "name": "Begüm Yılmaz",
+                        "birt_of_day": "1998-07-24",
+                        "university": "Boğaziçi Üniversitesi",
+                        "school_department": "Kalite Mühendisliği",
+                        "job_start_date": "2023-09-05",
+                        "position": "Engineer R&D",
+                        "sex": "Kadın",
+                        "hometown": "İzmir",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/7.jpg"
+                    },
+                    {
+                        "id": "4b573469-ee3e-4d0f-8232-9ed1d8f09a21",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Kalite",
+                        "isTeamLead": "false",
+                        "parentLead": "Elif Yılmaz",
+                        "sicil": "73926481",
+                        "name": "Ozan Şahin",
+                        "birt_of_day": "1994-11-13",
+                        "university": "Boğaziçi Üniversitesi",
+                        "school_department": "Kalite Mühendisliği",
+                        "job_start_date": "2022-08-28",
+                        "position": "Senior Specialist Engineer R&D",
+                        "sex": "Erkek",
+                        "hometown": "Adana",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/8.jpg"
+                    },
+                    {
+                        "id": "f5080e42-3989-4d6b-b5ec-ef78ac1b226f",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Kalite",
+                        "isTeamLead": "false",
+                        "parentLead": "Elif Yılmaz",
+                        "sicil": "23456789",
+                        "name": "Deniz Toprak",
+                        "birt_of_day": "1996-02-09",
+                        "university": "Boğaziçi Üniversitesi",
+                        "school_department": "Kalite Mühendisliği",
+                        "job_start_date": "2023-04-17",
+                        "position": "Engineer R&D",
+                        "sex": "Kadın",
+                        "hometown": "Ankara",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/8.jpg"
+                    },
+                    {
+                        "id": "e5d24d6f-7da2-4f65-8155-ae2e4e8e0b24",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Kalite",
+                        "isTeamLead": "false",
+                        "parentLead": "Elif Yılmaz",
+                        "sicil": "12345678",
+                        "name": "Merve Avcı",
+                        "birt_of_day": "1995-08-21",
+                        "university": "Boğaziçi Üniversitesi",
+                        "school_department": "Kalite Mühendisliği",
+                        "job_start_date": "2022-11-20",
+                        "position": "Senior Engineer R&D",
+                        "sex": "Kadın",
+                        "hometown": "İstanbul",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/9.jpg"
+                    }                      
                 ],
                 "teamLeads": [
                     {
-                        "id": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
-                        "type": "teamLeads",
-                        "parentCompany": "Beko",
-                        "parentDepartment": "Beko Yazılım",
-                        "isTeamLead": "true",
-                        "sicil": "",
-                        "name": "OSMAN OSMAN",
-                        "birt_of_day": "",
-                        "university": "",
-                        "school_department": "",
-                        "job_start_date": "",
-                        "position": "",
-                        "sex": "male",
-                        "hometown": "",
-                        "profile_picture": "https://via.placeholder.com/150"
-                    },
-                    {
-                        "id": "63f60a0d-9d99-415b-9e7a-d3669abba938",
+                        "id": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
                         "type": "teamLeads",
                         "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Yazılım",
                         "isTeamLead": "true",
-                        "sicil": "123",
+                        "sicil": "25366554",
                         "name": "Kaan Gencay",
-                        "birt_of_day": "",
-                        "university": "",
-                        "school_department": "",
-                        "job_start_date": "",
-                        "position": "",
-                        "sex": "male",
-                        "hometown": "",
-                        "profile_picture": "https://via.placeholder.com/150"
+                        "birt_of_day": "1983-05-04",
+                        "university": "Boğaziçi Üniversitesi",
+                        "school_department": "Elektrik Elektronik Mühendisliği",
+                        "job_start_date": "2019-03-13",
+                        "position": "Team Lead",
+                        "sex": "Erkek",
+                        "hometown": "Muğla",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/66.jpg"
+                    },
+                    {
+                        "id": "8cb02373-334a-4b04-9eb7-664532db43f8",
+                        "type": "teamLeads",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Kalite",
+                        "isTeamLead": "true",
+                        "sicil": "26098958",
+                        "name": "Elif Yılmaz",
+                        "birt_of_day": "1994-12-29",
+                        "university": "Ege Üniversitesi",
+                        "school_department": "Endüstri Mühendisliği",
+                        "job_start_date": "2018-07-12",
+                        "position": "Team Lead",
+                        "sex": "Kadın",
+                        "hometown": "Denizli",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/6.jpg"
                     }
                 ]
             }
@@ -263,51 +705,255 @@
             "description": "Beko to Beko Üretim"
         },
         {
-            "source": "10j",
-            "target": "8h",
-            "id": "6d40",
-            "description": "Deniz Yılmaz to Beko Üretim"
-        },
-        {
-            "source": "11k",
-            "target": "4d",
-            "id": "f2b4",
-            "description": "Enes Aydoğdu to Arçelik Yazılım"
-        },
-        {
-            "source": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
-            "target": "7g",
-            "description": "OSMAN OSMAN to Beko Yazılım"
-        },
-        {
-            "source": "fed9b49c-1f84-4e44-bc01-fa18706a9831",
-            "target": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
-            "description": "Ümiz Özdağ to Beko Yazılım"
-        },
-        {
-            "source": "a0a2c8fc-aa91-4d1a-be0f-c68cc871d047",
-            "target": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
-            "description": "gAKKO2 to Beko Yazılım.. Team Lead is: OSMAN OSMAN"
-        },
-        {
-            "source": "e4914d8b-f23a-477f-98b2-edd814d338b9",
-            "target": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
-            "description": "123 to Beko Yazılım.. Team Lead is: OSMAN OSMAN"
-        },
-        {
-            "source": "580a3d12-9c1c-4ada-8570-e3a354e3a9fc",
-            "target": "b313e03a-a350-4c3b-9cb8-c5bfbea58e33",
-            "description": "1231231 to Beko Yazılım.. Team Lead is: OSMAN OSMAN"
-        },
-        {
-            "source": "63f60a0d-9d99-415b-9e7a-d3669abba938",
+            "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
             "target": "4d",
             "description": "Kaan Gencay to Arçelik Yazılım as a Team Lead"
         },
         {
-            "source": "606ae6d0-af83-49d2-a684-ecc476669916",
-            "target": "63f60a0d-9d99-415b-9e7a-d3669abba938",
-            "description": "enesis to Arçelik Yazılım.. Team Lead is: Kaan Gencay"
+            "source": "d20e0439-f716-4a32-a3d2-f823a850f678",
+            "target": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "description": "Enes Aydoğdu to Arçelik Yazılım.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "835a4d45-909b-4ad2-821e-525b254a3a0c",
+            "target": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "description": "Dila Şahin to Arçelik Yazılım.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "1a",
+            "target": "60b4ec03-c3c6-409d-ac1b-473262ad8ee6",
+            "description": "Koç to Grundig"
+        },
+        {
+            "source": "1a",
+            "target": "16fe6dbb-7d8f-479e-84f6-0d8765aa90ed",
+            "description": "Koç to Otokar"
+        },
+        {
+            "source": "1a",
+            "target": "9b834121-c193-4750-bb5f-d8eba0431553",
+            "description": "Koç to Opet"
+        },
+        {
+            "source": "1a",
+            "target": "06d5d010-dd63-49cb-a25c-9898cf572e50",
+            "description": "Koç to Avis"
+        },
+        {
+            "source": "06d5d010-dd63-49cb-a25c-9898cf572e50",
+            "target": "b07f89ce-8ab3-4794-9f6c-4d744bfc5330",
+            "description": "Avis to Avis Yazılım"
+        },
+        {
+            "source": "06d5d010-dd63-49cb-a25c-9898cf572e50",
+            "target": "bd10a2f4-e155-4864-bee4-85ae76639fdf",
+            "description": "Avis to Avis Kalite"
+        },
+        {
+            "source": "06d5d010-dd63-49cb-a25c-9898cf572e50",
+            "target": "951fcf4b-1204-4155-9bff-c7bc8cd08b8d",
+            "description": "Avis to Avis Üretim"
+        },
+        {
+            "source": "60b4ec03-c3c6-409d-ac1b-473262ad8ee6",
+            "target": "675996ad-0ad2-4204-8e6a-d97d0f692c95",
+            "description": "Grundig to Grundig Yazılım"
+        },
+        {
+            "source": "60b4ec03-c3c6-409d-ac1b-473262ad8ee6",
+            "target": "86b21eb5-991e-4ff4-b09c-da541f22a3ed",
+            "description": "Grundig to Grundig Üretim"
+        },
+        {
+            "source": "60b4ec03-c3c6-409d-ac1b-473262ad8ee6",
+            "target": "212de956-3bed-4b10-a988-e98fea5b9a78",
+            "description": "Grundig to Grundig Kalite"
+        },
+        {
+            "source": "16fe6dbb-7d8f-479e-84f6-0d8765aa90ed",
+            "target": "7b2e84df-f560-4bb6-b601-85da25b543fb",
+            "description": "Otokar to Otokar Üretim"
+        },
+        {
+            "source": "16fe6dbb-7d8f-479e-84f6-0d8765aa90ed",
+            "target": "843972c2-63b7-4b9c-9a08-45a21afd61e7",
+            "description": "Otokar to Otokar Kalite"
+        },
+        {
+            "source": "16fe6dbb-7d8f-479e-84f6-0d8765aa90ed",
+            "target": "f1c98cf4-d0de-40b6-9b89-e7cf3165b518",
+            "description": "Otokar to Otokar Yazılım"
+        },
+        {
+            "source": "9b834121-c193-4750-bb5f-d8eba0431553",
+            "target": "5665ba6d-ad09-4bb7-91fb-a7564e3f8966",
+            "description": "Opet to Opet Yazılım"
+        },
+        {
+            "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "target": "4c247146-26a1-4e9f-9166-3cda9b69dc76",
+            "description": "Deniz Kaya to Arçelik Yazılım.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "target": "b08d7b55-d29e-4b8e-a936-7d51b6c2a197",
+            "description": "Elif Demir to Arçelik Yazılım.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "target": "f6d8ab07-476e-4b24-b16c-8de8e66accc7",
+            "description": "Ali Yılmaz to Arçelik Elektrik.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "target": "69b3d87e-b2db-4f20-97e8-3a8a7b92e28f",
+            "description": "Ayşe Korkmaz to Arçelik Yazılım.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "target": "32d7ecb2-8e37-4e5b-b674-f4097a6cbe5d",
+            "description": "Mert Ateş to Arçelik Yazılım.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "target": "1d541542-8b39-4db2-8916-1e179d46869b",
+            "description": "Selin Aydın to Arçelik Elektrik.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "target": "ab5d3a62-4dcb-4e61-a7a2-2a44cf6d12a9",
+            "description": "Cem Öztürk to Arçelik Yazılım.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "target": "c74b0fa5-c45c-4a95-9a61-cc8a86ef228f",
+            "description": "Zeynep Tekin to Arçelik Elektrik.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "2b",
+            "target": "bea91d92-efa6-425c-b36f-d7fd39de5b35",
+            "description": "Arçelik to Arçelik İnsan Kaynakları"
+        },
+        {
+            "source": "2b",
+            "target": "bb8cb179-3465-477c-a4b7-9e3ace5fae61",
+            "description": "Arçelik to Arçelik Bilgi Teknolojileri"
+        },
+        {
+            "source": "3c",
+            "target": "f8b40d38-c7fe-49c4-a10a-4fd178ac26d1",
+            "description": "Beko to Beko İnsan Kaynakları"
+        },
+        {
+            "source": "3c",
+            "target": "f42e9c51-072d-4e85-bbd6-06559bfd23b2",
+            "description": "Beko to Beko Bilgi Teknolojileri"
+        },
+        {
+            "source": "60b4ec03-c3c6-409d-ac1b-473262ad8ee6",
+            "target": "b502368c-9292-4715-8832-e122d0a6a6de",
+            "description": "Grundig to Grundig İnsan Kaynakları"
+        },
+        {
+            "source": "16fe6dbb-7d8f-479e-84f6-0d8765aa90ed",
+            "target": "e3d6ee05-4cde-4aca-9e29-0ab160f946dc",
+            "description": "Otokar to Otokar İnsan Kaynakları"
+        },
+        {
+            "source": "9b834121-c193-4750-bb5f-d8eba0431553",
+            "target": "ddda512a-5cf0-4808-9491-7ad4b2f56d13",
+            "description": "Opet to Opet İnsan Kaynakları"
+        },
+        {
+            "source": "06d5d010-dd63-49cb-a25c-9898cf572e50",
+            "target": "0703586f-ec06-4bf9-a21b-3343beea2019",
+            "description": "Avis to Avis İnsan Kaynakları"
+        },
+        {
+            "source": "60b4ec03-c3c6-409d-ac1b-473262ad8ee6",
+            "target": "39701f80-4c49-49b9-8652-0a2c7b96b0df",
+            "description": "Grundig to Grundig Bilgi Teknolojileri"
+        },
+        {
+            "source": "16fe6dbb-7d8f-479e-84f6-0d8765aa90ed",
+            "target": "289ab437-bba9-45e1-9d59-bd3b55bc419c",
+            "description": "Otokar to Otokar Bilgi Teknolojileri"
+        },
+        {
+            "source": "9b834121-c193-4750-bb5f-d8eba0431553",
+            "target": "e30f7861-9bad-4f02-a79b-efdde52e1137",
+            "description": "Opet to Opet Bilgi Teknolojileri"
+        },
+        {
+            "source": "06d5d010-dd63-49cb-a25c-9898cf572e50",
+            "target": "2a2ad49d-b5a9-40a5-a75a-d9088e6d4b76",
+            "description": "Avis to Avis Bilgi Teknolojileri"
+        },
+        {
+            "source": "9b834121-c193-4750-bb5f-d8eba0431553",
+            "target": "6b738416-8762-44b0-bffe-1722450a6706",
+            "description": "Opet to Opet Kalite"
+        },
+        {
+            "source": "9b834121-c193-4750-bb5f-d8eba0431553",
+            "target": "d6991c9f-cb1b-4f23-b7b0-d16315671ef2",
+            "description": "Opet to Opet Üretim"
+        },
+        {
+            "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
+            "target": "6f",
+            "description": "Elif Yılmaz to Arçelik Kalite as a Team Lead"
+        },
+        {
+            "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
+            "target": "44337f2f-ae9f-4429-8fb3-006b4e6cb0b4",
+            "description": "Ahmet Karasu to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+        },
+        {
+            "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
+            "target": "7fa152e9-8827-4481-85dc-6de9e439cb0d",
+            "description": "Sefa Arslan to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+        },
+        {
+            "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
+            "target": "be9b203c-06bb-4dd8-a07c-78dc5e7f6cb0",
+            "description": "Zeynep Kaya to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+        },
+        {
+            "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
+            "target": "98d45345-bb6e-4fd8-ba2c-7d36ab576f29",
+            "description": "Berkay Doğan to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+        },
+        {
+            "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
+            "target": "2c2e65fd-9b0b-453b-ae02-04a8e8b38d4b",
+            "description": "Begüm Yılmaz to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+        },
+        {
+            "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
+            "target": "4b573469-ee3e-4d0f-8232-9ed1d8f09a21",
+            "description": "Ozan Şahin to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+        },
+        {
+            "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
+            "target": "f5080e42-3989-4d6b-b5ec-ef78ac1b226f",
+            "description": "Deniz Toprak to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+        },
+        {
+            "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
+            "target": "e5d24d6f-7da2-4f65-8155-ae2e4e8e0b24",
+            "description": "Merve Avcı to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
         }
+       
+          
+          
+          
+
+          
+          
+          
+
+          
+          
     ]
 }

@@ -12,6 +12,17 @@ app.listen(3000, () => {
     console.log("The Project Running on 3000");
 });
 
+app.get('/', (req, res) => {
+    const links = data.links;
+    const nodes = data.nodes;
+
+    // links ve nodes dizilerini birleştir
+    const mergedList = links.concat(nodes);
+
+    // Birleştirilmiş listeyi client'a gönder
+    res.send(mergedList);
+});
+
 app.get('/links', (req, res) => {
     const links = data.links;
     res.send(links);
