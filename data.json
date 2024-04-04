@@ -8,8 +8,8 @@
                     "type": "head",
                     "kurulusTarihi": "1926",
                     "logo": "https://www.pdi.com.tr/assets/image/pdi/references/10-Koc-Holding.png",
-                    "ceo": "Ali Koç",
-                    "cto": "Bilgi bulunmamaktadır",
+                    "ceo": "Levent Çakıroğlu",
+                    "cto": "--",
                     "vizyon": "Türkiye'nin lider şirketi olarak sürdürülebilir bir gelecek inşa etmek.",
                     "misyon": "Müşterilerimize ve topluma değer katmak için kaliteli ürün ve hizmetler sunmak.",
                     "calisanSayisi": "80.000 (2022)"
@@ -20,19 +20,19 @@
                     "id": "2b",
                     "name": "Arçelik",
                     "type": "company",
-                    "logo" : "https://www.arcelikglobal.com/media/2828/arcelik_logo_kirmizi.png",
-                    "kurulusTarihi":"1955",
-                    "ceo" : "Hakan Bulgurlu (2022)",
-                    "cto" : "Polat Şen (2022)",
-                    "vizyon" : "Sürdürülebilir teknolojilerle dünyadaki yaşam kalitesini artırmak..",
-                    "misyon" : "Müşterilerimizin ve çalışanlarımızın hayatını daha iyi bir hale getirmek için yenilikçi, sürdürülebilir ve teknolojik çözümler sunmak..",
-                    "calisanSayisi":"30.000 (2022)"
+                    "logo": "https://www.arcelikglobal.com/media/2828/arcelik_logo_kirmizi.png",
+                    "kurulusTarihi": "1955",
+                    "ceo": "Hakan Bulgurlu (2022)",
+                    "cto": "Polat Şen (2022)",
+                    "vizyon": "Sürdürülebilir teknolojilerle dünyadaki yaşam kalitesini artırmak..",
+                    "misyon": "Müşterilerimizin ve çalışanlarımızın hayatını daha iyi bir hale getirmek için yenilikçi, sürdürülebilir ve teknolojik çözümler sunmak..",
+                    "calisanSayisi": "30.000 (2022)"
                 },
                 {
                     "id": "3c",
                     "name": "Beko",
                     "type": "company",
-                    "logo" : "https://www.arcelikglobal.com/media/2853/beko_logo.png",
+                    "logo": "https://www.arcelikglobal.com/media/2853/beko_logo.png",
                     "kurulusTarihi": "1989",
                     "ceo": "Fatih Kemal Ebiçlioğlu (2017)",
                     "cto": "Polat Şen (2022)",
@@ -44,10 +44,10 @@
                     "id": "60b4ec03-c3c6-409d-ac1b-473262ad8ee6",
                     "name": "Grundig",
                     "type": "company",
-                    "logo" :"https://cdn.freebiesupply.com/logos/large/2x/grundig-logo-png-transparent.png",
+                    "logo": "https://cdn.freebiesupply.com/logos/large/2x/grundig-logo-png-transparent.png",
                     "kurulusTarihi": "1945",
                     "ceo": "Murat Öztürk",
-                    "cto": "Bilgi bulunmamaktadır",
+                    "cto": "--",
                     "vizyon": "Kaliteli ürünlerle kullanıcı deneyimini en üst seviyede tutmak.",
                     "misyon": "Müşteri odaklı yaklaşımla, yenilikçi ve çevreci ürünler üretmek.",
                     "calisanSayisi": "10.000 (2022)"
@@ -56,10 +56,10 @@
                     "id": "16fe6dbb-7d8f-479e-84f6-0d8765aa90ed",
                     "name": "Otokar",
                     "type": "company",
-                    "logo": "https://www.logo.wine/a/logo/Otokar/Otokar-Logo.wine.svg" ,
+                    "logo": "https://www.logo.wine/a/logo/Otokar/Otokar-Logo.wine.svg",
                     "kurulusTarihi": "1963",
                     "ceo": "Serkan Yıldırım",
-                    "cto": "Bilgi bulunmamaktadır",
+                    "cto": "--",
                     "vizyon": "Yenilikçi ve güvenilir araçlarla mobilite çözümlerinde lider olmak.",
                     "misyon": "Müşteri ihtiyaçlarına uygun çevreci ve ekonomik taşıma çözümleri sunmak.",
                     "calisanSayisi": "5000 (2022)"
@@ -71,7 +71,7 @@
                     "logo": "https://cdn-www.dataroid.com/wp-content/uploads/2021/07/opet_dataroid.png",
                     "kurulusTarihi": "1992",
                     "ceo": "Cüneyt Ağca",
-                    "cto": "Bilgi bulunmamaktadır",
+                    "cto": "--",
                     "vizyon": "Enerji sektöründe sürdürülebilir bir gelecek için liderlik yapmak.",
                     "misyon": "Müşteri odaklı yaklaşımla, çevreci ve yenilikçi enerji çözümleri sunmak.",
                     "calisanSayisi": "5000 (2022)"
@@ -83,7 +83,7 @@
                     "logo": "https://freepngdesign.com/content/uploads/images/p-1663-3-avis-logo-png-transparent-logo-403920539360.png",
                     "kurulusTarihi": "1946",
                     "ceo": "Joe Ferraro",
-                    "cto": "Bilgi bulunmamaktadır",
+                    "cto": "--",
                     "vizyon": "Müşterilerimize en iyi araç kiralama deneyimini sunmak.",
                     "misyon": "Müşterilerimizin ihtiyaçlarına uygun, kaliteli ve güvenilir araç kiralama hizmetleri sunmak.",
                     "calisanSayisi": "30.000 (2022)"
@@ -523,7 +523,7 @@
                         "position": "Engineer R&D",
                         "sex": "Kadın",
                         "hometown": "İstanbul",
-                        "profile_picture": "https://randomuser.me/api/portraits/women/6.jpg"
+                        "profile_picture": "https://randomuser.me/api/portraits/women/66.jpg"
                     },
                     {
                         "id": "98d45345-bb6e-4fd8-ba2c-7d36ab576f29",
@@ -614,7 +614,349 @@
                         "sex": "Kadın",
                         "hometown": "İstanbul",
                         "profile_picture": "https://randomuser.me/api/portraits/women/9.jpg"
-                    }                      
+                    },
+                    {
+                        "id": "16f41c7e-4afb-46e0-9432-3a36c7697482",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik İnsan Kaynakları",
+                        "isTeamLead": "false",
+                        "parentLead": "Volkan Gürbüz",
+                        "sicil": "52346434",
+                        "name": "Veli Bacık",
+                        "birt_of_day": "1997-02-05",
+                        "university": "Dokuz Eylül Üniversitesi",
+                        "school_department": "İşletme",
+                        "job_start_date": "2023-03-12",
+                        "position": "İnsan Kaynakları",
+                        "sex": "Erkek",
+                        "hometown": "Ordu",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/10.jpg"
+                    },
+                    {
+                        "id": "62860905-134e-4649-9154-fec681a16604",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik İnsan Kaynakları",
+                        "isTeamLead": "false",
+                        "parentLead": "Volkan Gürbüz",
+                        "sicil": "19846586",
+                        "name": "Aslı Kaya",
+                        "birt_of_day": "1998-06-08",
+                        "university": "Sakarya Üniversitesi",
+                        "school_department": "İktisadi Bilimler",
+                        "job_start_date": "2023-01-14",
+                        "position": "İnsan Kaynakları",
+                        "sex": "Kadın",
+                        "hometown": "Sakarya",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/11.jpg"
+                    },
+                    {
+                        "id": "5645e3ff-4d7b-4ca0-b59d-4a933c965509",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik İnsan Kaynakları",
+                        "isTeamLead": "false",
+                        "parentLead": "Volkan Gürbüz",
+                        "sicil": "19846586",
+                        "name": "Merve Kaya",
+                        "birt_of_day": "1998-06-08",
+                        "university": "Pamukkale Üniversitesi",
+                        "school_department": "İktisadi Bilimler",
+                        "job_start_date": "2022-11-12",
+                        "position": "İnsan Kaynakları",
+                        "sex": "Kadın",
+                        "hometown": "Sakarya",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/12.jpg"
+                    },
+                    {
+                        "id": "7b0f2460-6b5d-4f21-b2d7-54bf3c26ce87",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik İnsan Kaynakları",
+                        "isTeamLead": "false",
+                        "parentLead": "Volkan Gürbüz",
+                        "sicil": "19846586",
+                        "name": "Ali Tabak",
+                        "birt_of_day": "2001-06-08",
+                        "university": "Ahi Evran Üniversitesi",
+                        "school_department": "İktisadi Bilimler",
+                        "job_start_date": "2023-11-12",
+                        "position": "İnsan Kaynakları",
+                        "sex": "Erkek",
+                        "hometown": "Konya",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/11.jpg"
+                    },
+                    {
+                        "id": "de767801-febb-43c3-9091-0713f84dccea",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Bilgi Teknolojileri",
+                        "isTeamLead": "false",
+                        "parentLead": "Kamil Karasu",
+                        "sicil": "25649758",
+                        "name": "Rehmi Keriz",
+                        "birt_of_day": "1998-05-12",
+                        "university": "Fırat Üniversitesi",
+                        "school_department": "Bilgisayar Programcılığı",
+                        "job_start_date": "2023-03-12",
+                        "position": "IT Uzmanı",
+                        "sex": "Erkek",
+                        "hometown": "Elazığ",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/14.jpg"
+                    },
+                    {
+                        "id": "a40c353b-194a-4853-9951-7bf552647cfb",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Bilgi Teknolojileri",
+                        "isTeamLead": "false",
+                        "parentLead": "Kamil Karasu",
+                        "sicil": "36259147",
+                        "name": "Aylin Yılmaz",
+                        "birt_of_day": "1995-09-22",
+                        "university": "Boğaziçi Üniversitesi",
+                        "school_department": "Bilgisayar Mühendisliği",
+                        "job_start_date": "2022-08-17",
+                        "position": "IT Uzmanı",
+                        "sex": "Kadın",
+                        "hometown": "İstanbul",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/15.jpg"
+                    },
+                    {
+                        "id": "44d52ff9-c08a-4cf2-bac1-bc357855b659",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Bilgi Teknolojileri",
+                        "isTeamLead": "false",
+                        "parentLead": "Kamil Karasu",
+                        "sicil": "2456234123",
+                        "name": "Rıza Kaya",
+                        "birt_of_day": "1988-03-12",
+                        "university": "Sakarya Üniversitesi",
+                        "school_department": "Bilişim Sistemleri",
+                        "job_start_date": "2022-03-12",
+                        "position": "IT Uzmanı",
+                        "sex": "Erkek",
+                        "hometown": "Sakarya",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/16.jpg"
+                    },
+                    {
+                        "id": "89802ab9-fc15-4cbd-b6bd-f0442eaacffb",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Bilgi Teknolojileri",
+                        "isTeamLead": "false",
+                        "parentLead": "Kamil Karasu",
+                        "sicil": "2456234123",
+                        "name": "Ramazan Çelik",
+                        "birt_of_day": "2000-05-12",
+                        "university": "Kocaeli Üniversitesi",
+                        "school_department": "Bilişim Sistemleri",
+                        "job_start_date": "2022-05-04",
+                        "position": "IT Uzmanı",
+                        "sex": "Erkek",
+                        "hometown": "Kocaeli ",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/17.jpg"
+                    },
+                    {
+                        "id": "c9dc4a1e-cb56-43d3-8d8c-0183447fbdd6",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Bilgi Teknolojileri",
+                        "isTeamLead": "false",
+                        "parentLead": "Kamil Karasu",
+                        "sicil": "2456234123",
+                        "name": "Aylin Rüzgar",
+                        "birt_of_day": "2000-04-04",
+                        "university": "Kocaeli Üniversitesi",
+                        "school_department": "Bilişim Sistemleri",
+                        "job_start_date": "2022-05-04",
+                        "position": "IT Uzmanı",
+                        "sex": "Erkek",
+                        "hometown": "Kocaeli ",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/16.jpg"
+                    },
+                    {
+                        "id": "144a2fba-569e-400e-91dd-8d5bf5186b7b",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Bilgi Teknolojileri",
+                        "isTeamLead": "false",
+                        "parentLead": "Kamil Karasu",
+                        "sicil": "2456234123",
+                        "name": "Rabia Durmuş",
+                        "birt_of_day": "1999-03-05",
+                        "university": "İstanbul Üniversitesi",
+                        "school_department": "Bilgisayar Programcılığı",
+                        "job_start_date": "2021-07-08",
+                        "position": "IT Uzman Yardımcısı",
+                        "sex": "Erkek",
+                        "hometown": "İstanbul",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/17.jpg"
+                    },
+                    {
+                        "id": "362d72a2-8924-4e1d-8e2b-df65b308b339",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Bilgi Teknolojileri",
+                        "isTeamLead": "false",
+                        "parentLead": "Kamil Karasu",
+                        "sicil": "2456234123",
+                        "name": "Serkan Kurşun",
+                        "birt_of_day": "1998-04-02",
+                        "university": "Bahçeşehir Üniversitesi",
+                        "school_department": "Bilgisayar Mühendisliği",
+                        "job_start_date": "2019-07-08",
+                        "position": "Kıdemli IT Uzmanı",
+                        "sex": "Erkek",
+                        "hometown": "İstanbul",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/18.jpg"
+                    },
+                    {
+                        "id": "0d0e2355-eab4-4443-8621-5724ff0c2c14",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik İnsan Kaynakları",
+                        "isTeamLead": "false",
+                        "parentLead": "Volkan Gürbüz",
+                        "sicil": "14523123",
+                        "name": "Melih Kalkan",
+                        "birt_of_day": "1999-03-12",
+                        "university": "Ege Üniversitesi",
+                        "school_department": "Kamu Yönetimi",
+                        "job_start_date": "2022-03-12",
+                        "position": "İnsan Kaynakları",
+                        "sex": "Erkek",
+                        "hometown": "İzmir",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/18.jpg"
+                    },
+                    {
+                        "id": "521d08fa-534f-4cc1-84cd-f8aa15bf7a01",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Üretim",
+                        "isTeamLead": "false",
+                        "parentLead": "Selim Uçar",
+                        "sicil": "24568779",
+                        "name": "Kayahan Göktürk",
+                        "birt_of_day": "2000-06-25",
+                        "university": "Gebze Teknik Üniversitesi",
+                        "school_department": "Endüstri Mühendisliği",
+                        "job_start_date": "2021-04-25",
+                        "position": "Üretim Mühendisi",
+                        "sex": "Erkek",
+                        "hometown": "Bilecik",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/20.jpg"
+                    },
+                    {
+                        "id": "9c46c6e6-7fde-4f75-85cb-b066b45ba42f",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Üretim",
+                        "isTeamLead": "false",
+                        "parentLead": "Selim Uçar",
+                        "sicil": "24568779",
+                        "name": "Salih Kuş",
+                        "birt_of_day": "2000-06-25",
+                        "university": "Kocaeli Üniversitesi",
+                        "school_department": "Endüstriyel Tasarım",
+                        "job_start_date": "2022-08-14",
+                        "position": "Üretim Mühendisi",
+                        "sex": "Erkek",
+                        "hometown": "Bolu",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/21.jpg"
+                    },
+                    {
+                        "id": "7abb76c4-1e63-47ce-96ae-11b03980d82a",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Üretim",
+                        "isTeamLead": "false",
+                        "parentLead": "Selim Uçar",
+                        "sicil": "24568779",
+                        "name": "Merve Sarı",
+                        "birt_of_day": "1998-06-14",
+                        "university": "Sakarya Üniversitesi",
+                        "school_department": "Endüstriyel Tasarım",
+                        "job_start_date": "2021-07-05",
+                        "position": "Üretim Mühendisi",
+                        "sex": "Kadın",
+                        "hometown": "Bolu",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/21.jpg"
+                    },
+                    {
+                        "id": "d85e3a89-a4db-45b6-b01e-7344a29939ae",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Üretim",
+                        "isTeamLead": "false",
+                        "parentLead": "Selim Uçar",
+                        "sicil": "15469878",
+                        "name": "Rabia Güzel",
+                        "birt_of_day": "1997-05-07",
+                        "university": "Kocaeli Üniversitesi",
+                        "school_department": "Endüstri Mühendisliği",
+                        "job_start_date": "2022-08-04",
+                        "position": "Üretim Mühendisi",
+                        "sex": "Kadın",
+                        "hometown": "Kocaeli",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/22.jpg"
+                    },
+                    {
+                        "id": "74c71a9e-e052-45b9-b3cf-6c897d7d3c59",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Üretim",
+                        "isTeamLead": "false",
+                        "parentLead": "Selim Uçar",
+                        "sicil": "15469878",
+                        "name": "Erdem Akalın",
+                        "birt_of_day": "1998-09-04",
+                        "university": "Marmara Üniversitesi",
+                        "school_department": "Endüstri Mühendisliği",
+                        "job_start_date": "2022-08-15",
+                        "position": "Üretim Mühendisi",
+                        "sex": "Kadın",
+                        "hometown": "Bursa",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/23.jpg"
+                    },
+                    {
+                        "id": "f600ad68-caaf-49f6-a737-41c0b7b05bfe",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Üretim",
+                        "isTeamLead": "false",
+                        "parentLead": "Selim Uçar",
+                        "sicil": "15469878",
+                        "name": "Emrecan Kargı",
+                        "birt_of_day": "1998-08-04",
+                        "university": "İstanbul Üniversitesi",
+                        "school_department": "Endüstriyel Tasarım",
+                        "job_start_date": "2022-08-15",
+                        "position": "Tasarımcı",
+                        "sex": "Erkek",
+                        "hometown": "Kocaeli",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/24.jpg"
+                    },
+                    {
+                        "id": "6d2d5ffd-5bf0-4a68-9a1e-1d55d580f227",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Üretim",
+                        "isTeamLead": "false",
+                        "parentLead": "Selim Uçar",
+                        "sicil": "15469878",
+                        "name": "Melisa Aslan",
+                        "birt_of_day": "1998-07-04",
+                        "university": "İstanbul Üniversitesi",
+                        "school_department": "Endüstri Mühendisliği",
+                        "job_start_date": "2022-09-06",
+                        "position": "Üretim Mühendisi",
+                        "sex": "Kadın",
+                        "hometown": "Kocaeli",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/22.jpg"
+                    }
                 ],
                 "teamLeads": [
                     {
@@ -650,6 +992,57 @@
                         "sex": "Kadın",
                         "hometown": "Denizli",
                         "profile_picture": "https://randomuser.me/api/portraits/women/6.jpg"
+                    },
+                    {
+                        "id": "f48deabc-8847-44b2-a75a-dfc6931e4ded",
+                        "type": "teamLeads",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik İnsan Kaynakları",
+                        "isTeamLead": "true",
+                        "sicil": "256654869",
+                        "name": "Volkan Gürbüz",
+                        "birt_of_day": "1989-11-23",
+                        "university": "Üsküdar Üniversitesi",
+                        "school_department": "İşletme",
+                        "job_start_date": "2021-07-15",
+                        "position": "Team Lead",
+                        "sex": "Erkek",
+                        "hometown": "Muğla",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/10.jpg"
+                    },
+                    {
+                        "id": "a41c353b-194a-4853-9951-7bf552647cfb",
+                        "type": "teamLeads",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Bilgi Teknolojileri",
+                        "isTeamLead": "true",
+                        "sicil": "56498875",
+                        "name": "Kamil Karasu",
+                        "birt_of_day": "1987-03-12",
+                        "university": "Koç Üniversitesi",
+                        "school_department": "Bilgisayar Mühendisliği",
+                        "job_start_date": "2018-03-12",
+                        "position": "Team Lead",
+                        "sex": "Erkek",
+                        "hometown": "İstanbul",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/12.jpg"
+                    },
+                    {
+                        "id": "1ee143d3-27a3-4d9f-95eb-2a81a0e1ca40",
+                        "type": "teamLeads",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik Üretim",
+                        "isTeamLead": "true",
+                        "sicil": "265485995",
+                        "name": "Selim Uçar",
+                        "birt_of_day": "1995-05-02",
+                        "university": "Sabancı Üniversitesi",
+                        "school_department": "Endüstri Mühendisliği",
+                        "job_start_date": "2023-04-25",
+                        "position": "Üretim Mühendisi",
+                        "sex": "Erkek",
+                        "hometown": "Bursa",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/19.jpg"
                     }
                 ]
             }
@@ -943,17 +1336,116 @@
             "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
             "target": "e5d24d6f-7da2-4f65-8155-ae2e4e8e0b24",
             "description": "Merve Avcı to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+        },
+        {
+            "source": "f48deabc-8847-44b2-a75a-dfc6931e4ded",
+            "target": "bea91d92-efa6-425c-b36f-d7fd39de5b35",
+            "description": "Volkan Gürbüz to Arçelik İnsan Kaynakları as a Team Lead"
+        },
+        {
+            "source": "16f41c7e-4afb-46e0-9432-3a36c7697482",
+            "target": "f48deabc-8847-44b2-a75a-dfc6931e4ded",
+            "description": "Veli Bacık to Arçelik İnsan Kaynakları.. Team Lead is: Volkan Gürbüz"
+        },
+        {
+            "source": "62860905-134e-4649-9154-fec681a16604",
+            "target": "f48deabc-8847-44b2-a75a-dfc6931e4ded",
+            "description": "Merve Kaya to Arçelik İnsan Kaynakları.. Team Lead is: Volkan Gürbüz"
+        },
+        {
+            "source": "5645e3ff-4d7b-4ca0-b59d-4a933c965509",
+            "target": "f48deabc-8847-44b2-a75a-dfc6931e4ded",
+            "description": "Merve Kaya to Arçelik İnsan Kaynakları.. Team Lead is: Volkan Gürbüz"
+        },
+        {
+            "source": "7b0f2460-6b5d-4f21-b2d7-54bf3c26ce87",
+            "target": "f48deabc-8847-44b2-a75a-dfc6931e4ded",
+            "description": "Ali Tabak to Arçelik İnsan Kaynakları.. Team Lead is: Volkan Gürbüz"
+        },
+        {
+            "source": "a41c353b-194a-4853-9951-7bf552647cfb",
+            "target": "bb8cb179-3465-477c-a4b7-9e3ace5fae61",
+            "description": "Kamil Karasu to Arçelik Bilgi Teknolojileri as a Team Lead"
+        },
+        {
+            "source": "de767801-febb-43c3-9091-0713f84dccea",
+            "target": "a41c353b-194a-4853-9951-7bf552647cfb",
+            "description": "Rehmi Keriz to Arçelik Bilgi Teknolojileri.. Team Lead is: Kamil Karasu"
+        },
+        {
+            "source": "a40c353b-194a-4853-9951-7bf552647cfb",
+            "target": "a41c353b-194a-4853-9951-7bf552647cfb",
+            "description": "Aylin Yılmaz to Arçelik Bilgi Teknolojileri.. Team Lead is: Kamil Karasu"
+        },
+        {
+            "source": "44d52ff9-c08a-4cf2-bac1-bc357855b659",
+            "target": "a41c353b-194a-4853-9951-7bf552647cfb",
+            "description": "Rıza Kaya to Arçelik Bilgi Teknolojileri.. Team Lead is: Kamil Karasu"
+        },
+        {
+            "source": "89802ab9-fc15-4cbd-b6bd-f0442eaacffb",
+            "target": "a41c353b-194a-4853-9951-7bf552647cfb",
+            "description": "Ramazan Çelik to Arçelik Bilgi Teknolojileri.. Team Lead is: Kamil Karasu"
+        },
+        {
+            "source": "c9dc4a1e-cb56-43d3-8d8c-0183447fbdd6",
+            "target": "a41c353b-194a-4853-9951-7bf552647cfb",
+            "description": "Aylin Rüzgar to Arçelik Bilgi Teknolojileri.. Team Lead is: Kamil Karasu"
+        },
+        {
+            "source": "144a2fba-569e-400e-91dd-8d5bf5186b7b",
+            "target": "a41c353b-194a-4853-9951-7bf552647cfb",
+            "description": "Rabia Durmuş to Arçelik Bilgi Teknolojileri.. Team Lead is: Kamil Karasu"
+        },
+        {
+            "source": "362d72a2-8924-4e1d-8e2b-df65b308b339",
+            "target": "a41c353b-194a-4853-9951-7bf552647cfb",
+            "description": "Serkan Kurşun to Arçelik Bilgi Teknolojileri.. Team Lead is: Kamil Karasu"
+        },
+        {
+            "source": "0d0e2355-eab4-4443-8621-5724ff0c2c14",
+            "target": "f48deabc-8847-44b2-a75a-dfc6931e4ded",
+            "description": "Melih Kalkan to Arçelik İnsan Kaynakları.. Team Lead is: Volkan Gürbüz"
+        },
+        {
+            "source": "1ee143d3-27a3-4d9f-95eb-2a81a0e1ca40",
+            "target": "5e",
+            "description": "Selim Uçar to Arçelik Üretim as a Team Lead"
+        },
+        {
+            "source": "521d08fa-534f-4cc1-84cd-f8aa15bf7a01",
+            "target": "1ee143d3-27a3-4d9f-95eb-2a81a0e1ca40",
+            "description": "Kayahan Göktürk to Arçelik Üretim.. Team Lead is: Selim Uçar"
+        },
+        {
+            "source": "9c46c6e6-7fde-4f75-85cb-b066b45ba42f",
+            "target": "1ee143d3-27a3-4d9f-95eb-2a81a0e1ca40",
+            "description": "Salih Kuş to Arçelik Üretim.. Team Lead is: Selim Uçar"
+        },
+        {
+            "source": "7abb76c4-1e63-47ce-96ae-11b03980d82a",
+            "target": "1ee143d3-27a3-4d9f-95eb-2a81a0e1ca40",
+            "description": "Merve Sarı to Arçelik Üretim.. Team Lead is: Selim Uçar"
+        },
+        {
+            "source": "d85e3a89-a4db-45b6-b01e-7344a29939ae",
+            "target": "1ee143d3-27a3-4d9f-95eb-2a81a0e1ca40",
+            "description": "Rabia Güzel to Arçelik Üretim.. Team Lead is: Selim Uçar"
+        },
+        {
+            "source": "74c71a9e-e052-45b9-b3cf-6c897d7d3c59",
+            "target": "1ee143d3-27a3-4d9f-95eb-2a81a0e1ca40",
+            "description": "Erdem Akalın to Arçelik Üretim.. Team Lead is: Selim Uçar"
+        },
+        {
+            "source": "f600ad68-caaf-49f6-a737-41c0b7b05bfe",
+            "target": "1ee143d3-27a3-4d9f-95eb-2a81a0e1ca40",
+            "description": "Emrecan Kargı to Arçelik Üretim.. Team Lead is: Selim Uçar"
+        },
+        {
+            "source": "6d2d5ffd-5bf0-4a68-9a1e-1d55d580f227",
+            "target": "1ee143d3-27a3-4d9f-95eb-2a81a0e1ca40",
+            "description": "Melisa Aslan to Arçelik Üretim.. Team Lead is: Selim Uçar"
         }
-       
-          
-          
-          
-
-          
-          
-          
-
-          
-          
     ]
 }
