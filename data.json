@@ -461,7 +461,7 @@
                         "parentCompany": "Arçelik",
                         "parentDepartment": "Arçelik Kalite",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Ceren Aksu",
                         "sicil": "26093438",
                         "name": "Ahmet Karasu",
                         "birth_of_day": "1996-03-12",
@@ -479,7 +479,7 @@
                         "parentCompany": "Arçelik",
                         "parentDepartment": "Arçelik Kalite",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Ceren Aksu",
                         "sicil": "23987432",
                         "name": "Aylin Durmuş",
                         "birth_of_day": "1994-09-28",
@@ -497,7 +497,7 @@
                         "parentCompany": "Arçelik",
                         "parentDepartment": "Arçelik Kalite",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Ceren Aksu",
                         "sicil": "87523987",
                         "name": "Sefa Arslan",
                         "birth_of_day": "1993-12-05",
@@ -515,7 +515,7 @@
                         "parentCompany": "Arçelik",
                         "parentDepartment": "Arçelik Kalite",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Ceren Aksu",
                         "sicil": "46781293",
                         "name": "Zeynep Kaya",
                         "birth_of_day": "1995-06-18",
@@ -533,7 +533,7 @@
                         "parentCompany": "Arçelik",
                         "parentDepartment": "Arçelik Kalite",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Ceren Aksu",
                         "sicil": "64328971",
                         "name": "Berkay Doğan",
                         "birth_of_day": "1997-03-19",
@@ -551,7 +551,7 @@
                         "parentCompany": "Arçelik",
                         "parentDepartment": "Arçelik Kalite",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Ceren Aksu",
                         "sicil": "58213479",
                         "name": "Begüm Yılmaz",
                         "birth_of_day": "1998-07-24",
@@ -569,7 +569,7 @@
                         "parentCompany": "Arçelik",
                         "parentDepartment": "Arçelik Kalite",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Ceren Aksu",
                         "sicil": "73926481",
                         "name": "Ozan Şahin",
                         "birth_of_day": "1994-11-13",
@@ -587,7 +587,7 @@
                         "parentCompany": "Arçelik",
                         "parentDepartment": "Arçelik Kalite",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Ceren Aksu",
                         "sicil": "23456789",
                         "name": "Deniz Toprak",
                         "birth_of_day": "1996-02-09",
@@ -605,7 +605,7 @@
                         "parentCompany": "Arçelik",
                         "parentDepartment": "Arçelik Kalite",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Ceren Aksu",
                         "sicil": "12345678",
                         "name": "Merve Avcı",
                         "birth_of_day": "1995-08-21",
@@ -616,6 +616,24 @@
                         "sex": "Kadın",
                         "hometown": "İstanbul",
                         "profile_picture": "https://randomuser.me/api/portraits/women/9.jpg"
+                    },
+                    {
+                        "id": "0d0e2355-eab4-4443-8621-5724ff0c2c14",
+                        "type": "workers",
+                        "parentCompany": "Arçelik",
+                        "parentDepartment": "Arçelik İnsan Kaynakları",
+                        "isTeamLead": "false",
+                        "parentLead": "Volkan Gürbüz",
+                        "sicil": "14523123",
+                        "name": "Melih Kalkan",
+                        "birth_of_day": "1999-03-12",
+                        "university": "Ege Üniversitesi",
+                        "school_department": "Kamu Yönetimi",
+                        "job_start_date": "2022-03-12",
+                        "position": "İnsan Kaynakları",
+                        "sex": "Erkek",
+                        "hometown": "İzmir",
+                        "profile_picture": "https://randomuser.me/api/portraits/men/18.jpg"
                     },
                     {
                         "id": "16f41c7e-4afb-46e0-9432-3a36c7697482",
@@ -816,24 +834,6 @@
                         "profile_picture": "https://randomuser.me/api/portraits/men/18.jpg"
                     },
                     {
-                        "id": "0d0e2355-eab4-4443-8621-5724ff0c2c14",
-                        "type": "workers",
-                        "parentCompany": "Arçelik",
-                        "parentDepartment": "Arçelik İnsan Kaynakları",
-                        "isTeamLead": "false",
-                        "parentLead": "Volkan Gürbüz",
-                        "sicil": "14523123",
-                        "name": "Melih Kalkan",
-                        "birth_of_day": "1999-03-12",
-                        "university": "Ege Üniversitesi",
-                        "school_department": "Kamu Yönetimi",
-                        "job_start_date": "2022-03-12",
-                        "position": "İnsan Kaynakları",
-                        "sex": "Erkek",
-                        "hometown": "İzmir",
-                        "profile_picture": "https://randomuser.me/api/portraits/men/18.jpg"
-                    },
-                    {
                         "id": "521d08fa-534f-4cc1-84cd-f8aa15bf7a01",
                         "type": "workers",
                         "parentCompany": "Arçelik",
@@ -965,7 +965,7 @@
                         "parentCompany": "Beko",
                         "parentDepartment": "Beko Yazılım",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Gizem Karasim",
                         "sicil": "658645845",
                         "name": "Kamil Koç",
                         "birth_of_day": "1998-05-02",
@@ -983,7 +983,7 @@
                         "parentCompany": "Beko",
                         "parentDepartment": "Beko Yazılım",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Gizem Karasim",
                         "sicil": "987654321",
                         "name": "Ayşe Yılmaz",
                         "birth_of_day": "1995-09-15",
@@ -1001,7 +1001,7 @@
                         "parentCompany": "Beko",
                         "parentDepartment": "Beko Yazılım",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Gizem Karasim",
                         "sicil": "123456789",
                         "name": "Mehmet Yıldırım",
                         "birth_of_day": "1997-11-23",
@@ -1019,7 +1019,7 @@
                         "parentCompany": "Beko",
                         "parentDepartment": "Beko Yazılım",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Gizem Karasim",
                         "sicil": "456789123",
                         "name": "Zeynep Kaya",
                         "birth_of_day": "1996-04-10",
@@ -1037,7 +1037,7 @@
                         "parentCompany": "Beko",
                         "parentDepartment": "Beko Yazılım",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Gizem Karasim",
                         "sicil": "987123654",
                         "name": "Emre Yılmaz",
                         "birth_of_day": "1994-08-30",
@@ -1055,7 +1055,7 @@
                         "parentCompany": "Beko",
                         "parentDepartment": "Beko Yazılım",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Gizem Karasim",
                         "sicil": "753951852",
                         "name": "Ahmet Can",
                         "birth_of_day": "1997-12-18",
@@ -1073,7 +1073,7 @@
                         "parentCompany": "Beko",
                         "parentDepartment": "Beko Yazılım",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Gizem Karasim",
                         "sicil": "369852147",
                         "name": "Fatma Şahin",
                         "birth_of_day": "1996-07-05",
@@ -1091,7 +1091,7 @@
                         "parentCompany": "Beko",
                         "parentDepartment": "Beko Yazılım",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Gizem Karasim",
                         "sicil": "654789321",
                         "name": "Gizem Yıldız",
                         "birth_of_day": "1995-10-29",
@@ -1109,7 +1109,7 @@
                         "parentCompany": "Beko",
                         "parentDepartment": "Beko Yazılım",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Yılmaz",
+                        "parentLead": "Gizem Karasim",
                         "sicil": "852369741",
                         "name": "Ali Demir",
                         "birth_of_day": "1993-03-12",
@@ -2976,24 +2976,6 @@
                         "profile_picture": "https://randomuser.me/api/portraits/women/33.jpg"
                     },
                     {
-                        "id": "48d9aa6e-781c-4403-aaa7-c914a730a634",
-                        "type": "workers",
-                        "parentCompany": "Otokar",
-                        "parentDepartment": "Otokar Kalite",
-                        "isTeamLead": "false",
-                        "parentLead": "Mahmut Karakoç",
-                        "sicil": "974568745",
-                        "name": "Selin Yalçın",
-                        "birth_of_day": "1999-03-12",
-                        "university": "İstanbul Üniversitesi",
-                        "school_department": "Kalite Mühendisliği",
-                        "job_start_date": "2022-03-12",
-                        "position": "Kalite Mühendisi",
-                        "sex": "Kadın",
-                        "hometown": "Konya",
-                        "profile_picture": "https://randomuser.me/api/portraits/women/45.jpg"
-                    },
-                    {
                         "id": "39330dcb-0b69-4d9a-92d2-99d480a41794",
                         "type": "workers",
                         "parentCompany": "Otokar",
@@ -3372,6 +3354,24 @@
                         "profile_picture": "https://randomuser.me/api/portraits/men/53.jpg"
                     },
                     {
+                        "id": "48d9aa6e-781c-4403-aaa7-c914a730a634",
+                        "type": "workers",
+                        "parentCompany": "Otokar",
+                        "parentDepartment": "Otokar Kalite",
+                        "isTeamLead": "false",
+                        "parentLead": "Mahmut Karakoç",
+                        "sicil": "974568745",
+                        "name": "Selin Yalçın",
+                        "birth_of_day": "1999-03-12",
+                        "university": "İstanbul Üniversitesi",
+                        "school_department": "Kalite Mühendisliği",
+                        "job_start_date": "2022-03-12",
+                        "position": "Kalite Mühendisi",
+                        "sex": "Kadın",
+                        "hometown": "Konya",
+                        "profile_picture": "https://randomuser.me/api/portraits/women/45.jpg"
+                    },
+                    {
                         "id": "dd2d6a89-7c79-4f37-9cbb-3ad7d9eddc4a",
                         "type": "workers",
                         "parentCompany": "Otokar",
@@ -3701,7 +3701,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet İnsan Kaynakları",
                         "isTeamLead": "false",
-                        "parentLead": "Ayşe Yılmaz",
+                        "parentLead": "Esra Kılıç",
                         "sicil": "784512369",
                         "name": "Ayşe Kaya",
                         "birth_of_day": "1998-09-15",
@@ -3719,7 +3719,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet İnsan Kaynakları",
                         "isTeamLead": "false",
-                        "parentLead": "Can Yıldız",
+                        "parentLead": "Esra Kılıç",
                         "sicil": "645789123",
                         "name": "Canan Demir",
                         "birth_of_day": "1997-12-20",
@@ -3737,7 +3737,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet İnsan Kaynakları",
                         "isTeamLead": "false",
-                        "parentLead": "Murat Yılmaz",
+                        "parentLead": "Esra Kılıç",
                         "sicil": "369852147",
                         "name": "Emre Karadeniz",
                         "birth_of_day": "1996-08-25",
@@ -3755,7 +3755,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet İnsan Kaynakları",
                         "isTeamLead": "false",
-                        "parentLead": "Fatma Aydın",
+                        "parentLead": "Esra Kılıç",
                         "sicil": "951753852",
                         "name": "Fatih Yılmaz",
                         "birth_of_day": "1995-06-18",
@@ -3773,7 +3773,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet İnsan Kaynakları",
                         "isTeamLead": "false",
-                        "parentLead": "Gizem Kara",
+                        "parentLead": "Esra Kılıç",
                         "sicil": "753159846",
                         "name": "Sevgi Yıldız",
                         "birth_of_day": "1999-03-28",
@@ -3791,7 +3791,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet İnsan Kaynakları",
                         "isTeamLead": "false",
-                        "parentLead": "Mehmet Demir",
+                        "parentLead": "Esra Kılıç",
                         "sicil": "845623159",
                         "name": "Yasemin Karadeniz",
                         "birth_of_day": "1998-11-10",
@@ -3809,7 +3809,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet İnsan Kaynakları",
                         "isTeamLead": "false",
-                        "parentLead": "Deniz Yılmaz",
+                        "parentLead": "Esra Kılıç",
                         "sicil": "456789321",
                         "name": "Fatma Erdoğan",
                         "birth_of_day": "1997-05-14",
@@ -3827,7 +3827,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet İnsan Kaynakları",
                         "isTeamLead": "false",
-                        "parentLead": "Selim Aydın",
+                        "parentLead": "Esra Kılıç",
                         "sicil": "632154987",
                         "name": "Hakan Güneş",
                         "birth_of_day": "1996-09-20",
@@ -3845,7 +3845,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet İnsan Kaynakları",
                         "isTeamLead": "false",
-                        "parentLead": "Yasemin Aydın",
+                        "parentLead": "Esra Kılıç",
                         "sicil": "987456321",
                         "name": "Berkay Yılmaz",
                         "birth_of_day": "1998-04-25",
@@ -3863,7 +3863,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet İnsan Kaynakları",
                         "isTeamLead": "false",
-                        "parentLead": "Nesrin Karahan",
+                        "parentLead": "Esra Kılıç",
                         "sicil": "874596321",
                         "name": "Esra Arslan",
                         "birth_of_day": "1997-08-12",
@@ -4241,7 +4241,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Ayşe Çelik",
+                        "parentLead": "Murat Tekin",
                         "sicil": "5793812465",
                         "name": "Seda Yılmaz",
                         "birth_of_day": "1998-05-21",
@@ -4259,7 +4259,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Can Yılmaz",
+                        "parentLead": "Murat Tekin",
                         "sicil": "2359874123",
                         "name": "Ayşe Yıldız",
                         "birth_of_day": "1996-09-15",
@@ -4277,7 +4277,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Ahmet Yıldırım",
+                        "parentLead": "Murat Tekin",
                         "sicil": "9857421347",
                         "name": "Emre Yılmaz",
                         "birth_of_day": "1997-07-18",
@@ -4295,7 +4295,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Selin Yılmaz",
+                        "parentLead": "Murat Tekin",
                         "sicil": "7485129347",
                         "name": "Beril Çelik",
                         "birth_of_day": "1999-11-25",
@@ -4313,7 +4313,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Ayşe Yıldız",
+                        "parentLead": "Murat Tekin",
                         "sicil": "6729438123",
                         "name": "Ahmet Demir",
                         "birth_of_day": "1995-03-30",
@@ -4331,7 +4331,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Melis Kaya",
+                        "parentLead": "Murat Tekin",
                         "sicil": "1347895123",
                         "name": "Ayşe Yılmaz",
                         "birth_of_day": "1998-08-11",
@@ -4349,7 +4349,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Seda Yılmaz",
+                        "parentLead": "Murat Tekin",
                         "sicil": "5981346721",
                         "name": "Mehmet Arslan",
                         "birth_of_day": "1996-12-20",
@@ -4367,7 +4367,7 @@
                         "parentCompany": "Opet",
                         "parentDepartment": "Opet Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Mehmet Kaya",
+                        "parentLead": "Murat Tekin",
                         "sicil": "4218379562",
                         "name": "Tuğba Öztürk",
                         "birth_of_day": "1997-05-18",
@@ -5141,7 +5141,7 @@
                         "parentCompany": "Avis",
                         "parentDepartment": "Avis Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Ayşe Şahin",
+                        "parentLead": "Melih Kadifeci",
                         "sicil": "583740264",
                         "name": "Yasin Aktaş",
                         "birth_of_day": "1998-10-25",
@@ -5159,7 +5159,7 @@
                         "parentCompany": "Avis",
                         "parentDepartment": "Avis Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Elif Aydın",
+                        "parentLead": "Melih Kadifeci",
                         "sicil": "289436752",
                         "name": "Sevgi Yılmaz",
                         "birth_of_day": "1997-07-18",
@@ -5177,7 +5177,7 @@
                         "parentCompany": "Avis",
                         "parentDepartment": "Avis Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Yasin Erdem",
+                        "parentLead": "Melih Kadifeci",
                         "sicil": "783245670",
                         "name": "Merve Aslan",
                         "birth_of_day": "1998-03-07",
@@ -5195,7 +5195,7 @@
                         "parentCompany": "Avis",
                         "parentDepartment": "Avis Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Emre Arslan",
+                        "parentLead": "Melih Kadifeci",
                         "sicil": "692834751",
                         "name": "Selin Yıldız",
                         "birth_of_day": "1997-09-20",
@@ -5213,7 +5213,7 @@
                         "parentCompany": "Avis",
                         "parentDepartment": "Avis Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Burak Yılmaz",
+                        "parentLead": "Melih Kadifeci",
                         "sicil": "579312784",
                         "name": "Emirhan Arıkan",
                         "birth_of_day": "1999-01-25",
@@ -5231,7 +5231,7 @@
                         "parentCompany": "Avis",
                         "parentDepartment": "Avis Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Gizem Arı",
+                        "parentLead": "Melih Kadifeci",
                         "sicil": "238967123",
                         "name": "Berkay Doğan",
                         "birth_of_day": "1998-07-30",
@@ -5249,7 +5249,7 @@
                         "parentCompany": "Avis",
                         "parentDepartment": "Avis Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Deniz Aydoğdu",
+                        "parentLead": "Melih Kadifeci",
                         "sicil": "874539102",
                         "name": "Ceren Öztürk",
                         "birth_of_day": "1997-05-18",
@@ -5267,7 +5267,7 @@
                         "parentCompany": "Avis",
                         "parentDepartment": "Avis Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Eren Demir",
+                        "parentLead": "Melih Kadifeci",
                         "sicil": "135798642",
                         "name": "Büşra Özkan",
                         "birth_of_day": "1998-02-22",
@@ -5285,7 +5285,7 @@
                         "parentCompany": "Avis",
                         "parentDepartment": "Avis Bilgi Teknolojileri",
                         "isTeamLead": "false",
-                        "parentLead": "Mert Yıldız",
+                        "parentLead": "Melih Kadifeci",
                         "sicil": "654123987",
                         "name": "Selin Karaca",
                         "birth_of_day": "1999-09-28",
@@ -5323,7 +5323,7 @@
                         "parentDepartment": "Arçelik Kalite",
                         "isTeamLead": "true",
                         "sicil": "26098958",
-                        "name": "Elif Yılmaz",
+                        "name": "Ceren Aksu",
                         "birth_of_day": "1994-12-29",
                         "university": "Ege Üniversitesi",
                         "school_department": "Endüstri Mühendisliği",
@@ -5391,7 +5391,7 @@
                         "parentDepartment": "Beko Yazılım",
                         "isTeamLead": "true",
                         "sicil": "26094958",
-                        "name": "Elif Yılmaz",
+                        "name": "Gizem Karasim",
                         "birth_of_day": "1995-08-15",
                         "university": "123",
                         "school_department": "Acıbadem Üniversitesi",
@@ -6050,52 +6050,52 @@
         {
             "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
             "target": "6f",
-            "description": "Elif Yılmaz to Arçelik Kalite as a Team Lead"
+            "description": "Ceren Aksu to Arçelik Kalite as a Team Lead"
         },
         {
             "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
             "target": "44337f2f-ae9f-4429-8fb3-006b4e6cb0b4",
-            "description": "Ahmet Karasu to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+            "description": "Ahmet Karasu to Arçelik Kalite.. Team Lead is: Ceren Aksu"
         },
         {
             "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
             "target": "7fa152e9-8827-4481-85dc-6de9e439cb0d",
-            "description": "Sefa Arslan to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+            "description": "Sefa Arslan to Arçelik Kalite.. Team Lead is: Ceren Aksu"
         },
         {
             "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
             "target": "be9b203c-06bb-4dd8-a07c-78dc5e7f6cb0",
-            "description": "Zeynep Kaya to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+            "description": "Zeynep Kaya to Arçelik Kalite.. Team Lead is: Ceren Aksu"
         },
         {
             "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
             "target": "98d45345-bb6e-4fd8-ba2c-7d36ab576f29",
-            "description": "Berkay Doğan to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+            "description": "Berkay Doğan to Arçelik Kalite.. Team Lead is: Ceren Aksu"
         },
         {
             "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
             "target": "2c2e65fd-9b0b-453b-ae02-04a8e8b38d4b",
-            "description": "Begüm Yılmaz to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+            "description": "Begüm Yılmaz to Arçelik Kalite.. Team Lead is: Ceren Aksu"
         },
         {
             "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
             "target": "4b573469-ee3e-4d0f-8232-9ed1d8f09a21",
-            "description": "Ozan Şahin to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+            "description": "Ozan Şahin to Arçelik Kalite.. Team Lead is: Ceren Aksu"
         },
         {
             "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
             "target": "f5080e42-3989-4d6b-b5ec-ef78ac1b226f",
-            "description": "Deniz Toprak to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+            "description": "Deniz Toprak to Arçelik Kalite.. Team Lead is: Ceren Aksu"
         },
         {
             "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
             "target": "e5d24d6f-7da2-4f65-8155-ae2e4e8e0b24",
-            "description": "Merve Avcı to Arçelik Kalite.. Team Lead is: Elif Yılmaz"
+            "description": "Merve Avcı to Arçelik Kalite.. Team Lead is: Ceren Aksu"
         },
         {
             "source": "8cb02373-334a-4b04-9eb7-664532db43f8",
             "target": "8xb02373-334a-4b04-9eb7-664532db43f8",
-            "description": "Aylin Durmuş to Arçelik Kalite Team Lead is: Elif Yılmaz"
+            "description": "Aylin Durmuş to Arçelik Kalite Team Lead is: Ceren Aksu"
         },
         {
             "source": "f48deabc-8847-44b2-a75a-dfc6931e4ded",
@@ -6210,7 +6210,7 @@
         {
             "source": "6f9d7a83-a76e-40ad-9751-bac8fd7f8869",
             "target": "7g",
-            "description": "Elif Yılmaz to Beko Yazılım as a Team Lead"
+            "description": "Gizem Karasim to Beko Yazılım as a Team Lead"
         },
         {
             "source": "92090a59-4e4a-4f85-925d-ee3b2e716e9a",
@@ -6310,47 +6310,47 @@
         {
             "source": "28a803d1-f7b7-4995-b76e-b5d1e1ac3e22",
             "target": "6f9d7a83-a76e-40ad-9751-bac8fd7f8869",
-            "description": "Kamil Koç to Beko Yazılım.. Team Lead is: Elif Yılmaz"
+            "description": "Kamil Koç to Beko Yazılım.. Team Lead is: Gizem Karasim"
         },
         {
             "source": "b124ae9d-248f-4d8d-bf1a-601bb8a3ef9a",
             "target": "6f9d7a83-a76e-40ad-9751-bac8fd7f8869",
-            "description": "Ayşe Yılmaz to Beko Yazılım. Team Lead is: Elif Yılmaz"
+            "description": "Ayşe Yılmaz to Beko Yazılım. Team Lead is: Gizem Karasim"
         },
         {
             "source": "6eb56e5e-780f-4dd4-9b79-d1f5fb81c6b9",
             "target": "6f9d7a83-a76e-40ad-9751-bac8fd7f8869",
-            "description": "Ayşe Yılmaz to Beko Yazılım. Team Lead is: Elif Yılmaz"
+            "description": "Ayşe Yılmaz to Beko Yazılım. Team Lead is: Gizem Karasim"
         },
         {
             "source": "3f26f81d-5c33-4f5a-9c04-07a5c177b64c",
             "target": "6f9d7a83-a76e-40ad-9751-bac8fd7f8869",
-            "description": "Mehmet Yıldırım to Beko Yazılım. Team Lead is: Elif Yılmaz"
+            "description": "Mehmet Yıldırım to Beko Yazılım. Team Lead is: Gizem Karasim"
         },
         {
             "source": "af5b0a81-21bb-4fe5-874f-dc4548e9fd76",
             "target": "6f9d7a83-a76e-40ad-9751-bac8fd7f8869",
-            "description": "Emre Yılmaz to Beko Yazılım. Team Lead is: Elif Yılmaz"
+            "description": "Emre Yılmaz to Beko Yazılım. Team Lead is: Gizem Karasim"
         },
         {
             "source": "94d98260-d6d1-4b25-8460-53d1ab1be0e5",
             "target": "6f9d7a83-a76e-40ad-9751-bac8fd7f8869",
-            "description": "Ahmet Can to Beko Yazılım. Team Lead is: Elif Yılmaz"
+            "description": "Ahmet Can to Beko Yazılım. Team Lead is: Gizem Karasim"
         },
         {
             "source": "2f5f64be-64f3-43a5-859c-2c38d8c7ad86",
             "target": "6f9d7a83-a76e-40ad-9751-bac8fd7f8869",
-            "description": "Fatma Şahin to Beko Yazılım. Team Lead is: Elif Yılmaz"
+            "description": "Fatma Şahin to Beko Yazılım. Team Lead is: Gizem Karasim"
         },
         {
             "source": "dbf4e5f4-f588-4e33-b859-8d61e0486d24",
             "target": "6f9d7a83-a76e-40ad-9751-bac8fd7f8869",
-            "description": "Gizem Yıldız to Beko Yazılım. Team Lead is: Elif Yılmaz"
+            "description": "Gizem Yıldız to Beko Yazılım. Team Lead is: Gizem Karasim"
         },
         {
             "source": "97b91e9a-df8a-4b3d-816d-9b269f4f1091",
             "target": "6f9d7a83-a76e-40ad-9751-bac8fd7f8869",
-            "description": "Ali Demir to Beko Yazılım. Team Lead is: Elif Yılmaz"
+            "description": "Ali Demir to Beko Yazılım. Team Lead is: Gizem Karasim"
         },
         {
             "source": "76bef16f-fce7-4062-a35b-5a6304336554",
@@ -7085,52 +7085,52 @@
         {
             "source": "e605a893-4380-4c10-a2ee-5c16a69d3de0",
             "target": "447df670-71fa-479d-b51e-e4ebd137e9a5",
-            "description": "Ayşe Kaya to Opet İnsan Kaynakları.. Team Lead is: Ayşe Yılmaz"
+            "description": "Ayşe Kaya to Opet İnsan Kaynakları.. Team Lead is: Esra Kılıç"
         },
         {
             "source": "13d31476-823f-4fc5-8a94-d18f3daa903a",
             "target": "447df670-71fa-479d-b51e-e4ebd137e9a5",
-            "description": "Canan Demir to Opet İnsan Kaynakları.. Team Lead is: Can Yıldız"
+            "description": "Canan Demir to Opet İnsan Kaynakları.. Team Lead is: Esra Kılıç"
         },
         {
             "source": "b2d33ef6-92f4-420a-8cf5-5297d8f1778f",
             "target": "447df670-71fa-479d-b51e-e4ebd137e9a5",
-            "description": "Emre Karadeniz to Opet İnsan Kaynakları.. Team Lead is: Murat Yılmaz"
+            "description": "Emre Karadeniz to Opet İnsan Kaynakları.. Team Lead is: Esra Kılıç"
         },
         {
             "source": "db434ad5-2714-45a3-bba9-7f8c4e570e37",
             "target": "447df670-71fa-479d-b51e-e4ebd137e9a5",
-            "description": "Fatih Yılmaz to Opet İnsan Kaynakları.. Team Lead is: Fatma Aydın"
+            "description": "Fatih Yılmaz to Opet İnsan Kaynakları.. Team Lead is: Esra Kılıç"
         },
         {
             "source": "3b6e888f-e34a-4a51-92a0-4e99ba187d16",
             "target": "447df670-71fa-479d-b51e-e4ebd137e9a5",
-            "description": "Sevgi Yıldız to Opet İnsan Kaynakları.. Team Lead is: Gizem Kara"
+            "description": "Sevgi Yıldız to Opet İnsan Kaynakları.. Team Lead is: Esra Kılıç"
         },
         {
             "source": "47869e65-316f-43c8-b19b-8f9b8835ac12",
             "target": "447df670-71fa-479d-b51e-e4ebd137e9a5",
-            "description": "Yasemin Karadeniz to Opet İnsan Kaynakları.. Team Lead is: Mehmet Demir"
+            "description": "Yasemin Karadeniz to Opet İnsan Kaynakları.. Team Lead is: Esra Kılıç"
         },
         {
             "source": "f0057ac4-3481-4139-9921-29dfde1a75f3",
             "target": "447df670-71fa-479d-b51e-e4ebd137e9a5",
-            "description": "Fatma Erdoğan to Opet İnsan Kaynakları.. Team Lead is: Deniz Yılmaz"
+            "description": "Fatma Erdoğan to Opet İnsan Kaynakları.. Team Lead is: Esra Kılıç"
         },
         {
             "source": "4bc1cfcb-f4ac-45f8-b576-6f90be365d18",
             "target": "447df670-71fa-479d-b51e-e4ebd137e9a5",
-            "description": "Hakan Güneş to Opet İnsan Kaynakları.. Team Lead is: Selim Aydın"
+            "description": "Hakan Güneş to Opet İnsan Kaynakları.. Team Lead is: Esra Kılıç"
         },
         {
             "source": "a1c17b9f-2fc8-42e3-8c1a-fba3c6a6b84d",
             "target": "447df670-71fa-479d-b51e-e4ebd137e9a5",
-            "description": "Berkay Yılmaz to Opet İnsan Kaynakları.. Team Lead is: Yasemin Aydın"
+            "description": "Berkay Yılmaz to Opet İnsan Kaynakları.. Team Lead is: Esra Kılıç"
         },
         {
             "source": "fd16aa5b-9602-4034-b61e-4e7d71e6074a",
             "target": "447df670-71fa-479d-b51e-e4ebd137e9a5",
-            "description": "Esra Arslan to Opet İnsan Kaynakları.. Team Lead is: Nesrin Karahan"
+            "description": "Esra Arslan to Opet İnsan Kaynakları.. Team Lead is: Esra Kılıç"
         },
         {
             "source": "e4f7aeac-4c16-4bce-99da-7fe3b96e9f43",
@@ -7235,42 +7235,42 @@
         {
             "source": "db5c9f4d-6e59-4f44-9ac0-1b7d4da7b00d",
             "target": "e60b2d84-e00b-4f9f-9816-a4aa0d551095",
-            "description": "Seda Yılmaz to Opet Bilgi Teknolojileri.. Team Lead is: Ayşe Çelik"
+            "description": "Seda Yılmaz to Opet Bilgi Teknolojileri.. Team Lead is: Murat Tekin"
         },
         {
             "source": "f2d6e758-f86b-4db1-b788-5b59439d6e79",
             "target": "e60b2d84-e00b-4f9f-9816-a4aa0d551095",
-            "description": "Ayşe Yıldız to Opet Bilgi Teknolojileri.. Team Lead is: Can Yılmaz"
+            "description": "Ayşe Yıldız to Opet Bilgi Teknolojileri.. Team Lead is: Murat Tekin"
         },
         {
             "source": "d1f0b634-b1c8-4624-9051-575120f64fe0",
             "target": "e60b2d84-e00b-4f9f-9816-a4aa0d551095",
-            "description": "Emre Yılmaz to Opet Bilgi Teknolojileri.. Team Lead is: Ahmet Yıldırım"
+            "description": "Emre Yılmaz to Opet Bilgi Teknolojileri.. Team Lead is: Murat Tekin"
         },
         {
             "source": "c43054b3-2b9d-4577-8e48-12f04c46d8a4",
             "target": "e60b2d84-e00b-4f9f-9816-a4aa0d551095",
-            "description": "Beril Çelik to Opet Bilgi Teknolojileri.. Team Lead is: Selin Yılmaz"
+            "description": "Beril Çelik to Opet Bilgi Teknolojileri.. Team Lead is: Murat Tekin"
         },
         {
             "source": "98e3d6c0-c24b-4966-b586-34c33bf785bc",
             "target": "e60b2d84-e00b-4f9f-9816-a4aa0d551095",
-            "description": "Ahmet Demir to Opet Bilgi Teknolojileri.. Team Lead is: Ayşe Yıldız"
+            "description": "Ahmet Demir to Opet Bilgi Teknolojileri.. Team Lead is: Murat Tekin"
         },
         {
             "source": "90e08d8e-3942-4bb1-bb2c-334b0f199837",
             "target": "e60b2d84-e00b-4f9f-9816-a4aa0d551095",
-            "description": "Ayşe Yılmaz to Opet Bilgi Teknolojileri.. Team Lead is: Melis Kaya"
+            "description": "Ayşe Yılmaz to Opet Bilgi Teknolojileri.. Team Lead is: Murat Tekin"
         },
         {
             "source": "d3d4a92e-23cd-4c82-a1e8-42b290c3614d",
             "target": "e60b2d84-e00b-4f9f-9816-a4aa0d551095",
-            "description": "Mehmet Arslan to Opet Bilgi Teknolojileri.. Team Lead is: Seda Yılmaz"
+            "description": "Mehmet Arslan to Opet Bilgi Teknolojileri.. Team Lead is: Murat Tekin"
         },
         {
             "source": "f76fc5bb-b49b-4f8e-80c7-0eb67d61d46d",
             "target": "e60b2d84-e00b-4f9f-9816-a4aa0d551095",
-            "description": "Tuğba Öztürk to Opet Bilgi Teknolojileri.. Team Lead is: Mehmet Kaya"
+            "description": "Tuğba Öztürk to Opet Bilgi Teknolojileri.. Team Lead is: Murat Tekin"
         },
         {
             "source": "6a148c92-c3f9-456d-af79-1fbd6134a980",
@@ -7515,47 +7515,47 @@
         {
             "source": "67899e30-78c1-4a89-8165-6a96a8e4b236",
             "target": "da1e8c27-0279-42f2-a0be-9abd3d6f38ae",
-            "description": "Yasin Aktaş to Avis Bilgi Teknolojileri.. Team Lead is: Ayşe Şahin"
+            "description": "Yasin Aktaş to Avis Bilgi Teknolojileri.. Team Lead is: Melih Kadifeci"
         },
         {
             "source": "bc2c8849-1474-4b7b-a8cc-85992e2f97fb",
             "target": "da1e8c27-0279-42f2-a0be-9abd3d6f38ae",
-            "description": "Sevgi Yılmaz to Avis Bilgi Teknolojileri.. Team Lead is: Elif Aydın"
+            "description": "Sevgi Yılmaz to Avis Bilgi Teknolojileri.. Team Lead is: Melih Kadifeci"
         },
         {
             "source": "dbd93d72-cc09-4c3f-b489-7a32c74d2b9f",
             "target": "da1e8c27-0279-42f2-a0be-9abd3d6f38ae",
-            "description": "Merve Aslan to Avis Bilgi Teknolojileri.. Team Lead is: Yasin Erdem"
+            "description": "Merve Aslan to Avis Bilgi Teknolojileri.. Team Lead is: Melih Kadifeci"
         },
         {
             "source": "eb44414f-0de0-4c76-a4e1-0ff3de8c3198",
             "target": "da1e8c27-0279-42f2-a0be-9abd3d6f38ae",
-            "description": "Selin Yıldız to Avis Bilgi Teknolojileri.. Team Lead is: Emre Arslan"
+            "description": "Selin Yıldız to Avis Bilgi Teknolojileri.. Team Lead is: Melih Kadifeci"
         },
         {
             "source": "18b0da2a-2986-4e7b-b086-cd99983e1c43",
             "target": "da1e8c27-0279-42f2-a0be-9abd3d6f38ae",
-            "description": "Emirhan Arıkan to Avis Bilgi Teknolojileri.. Team Lead is: Burak Yılmaz"
+            "description": "Emirhan Arıkan to Avis Bilgi Teknolojileri.. Team Lead is: Melih Kadifeci"
         },
         {
             "source": "c4c8bc0a-f17f-4b78-b8d6-c5c98843ad64",
             "target": "da1e8c27-0279-42f2-a0be-9abd3d6f38ae",
-            "description": "Berkay Doğan to Avis Bilgi Teknolojileri.. Team Lead is: Gizem Arı"
+            "description": "Berkay Doğan to Avis Bilgi Teknolojileri.. Team Lead is: Melih Kadifeci"
         },
         {
             "source": "f27bca79-fad5-48d6-b05f-d161828a8d5c",
             "target": "da1e8c27-0279-42f2-a0be-9abd3d6f38ae",
-            "description": "Ceren Öztürk to Avis Bilgi Teknolojileri.. Team Lead is: Deniz Aydoğdu"
+            "description": "Ceren Öztürk to Avis Bilgi Teknolojileri.. Team Lead is: Melih Kadifeci"
         },
         {
             "source": "eae2b69b-96da-48d5-82db-865d5b168cc0",
             "target": "da1e8c27-0279-42f2-a0be-9abd3d6f38ae",
-            "description": "Büşra Özkan to Avis Bilgi Teknolojileri.. Team Lead is: Eren Demir"
+            "description": "Büşra Özkan to Avis Bilgi Teknolojileri.. Team Lead is: Melih Kadifeci"
         },
         {
             "source": "e2b21a6d-93db-4a89-bf5d-9e12ef8af24f",
             "target": "da1e8c27-0279-42f2-a0be-9abd3d6f38ae",
-            "description": "Selin Karaca to Avis Bilgi Teknolojileri.. Team Lead is: Mert Yıldız"
+            "description": "Selin Karaca to Avis Bilgi Teknolojileri.. Team Lead is: Melih Kadifeci"
         }
     ]
 }
