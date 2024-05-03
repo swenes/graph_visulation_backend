@@ -376,19 +376,55 @@ app.delete('/department/:id', (req, res) => {
 app.delete('/teamLeads/:id', (req, res) => {
     const { id } = req.params;
 
-    // Ekip liderini bul ve sil
-    const updatedTeamLeads = data.nodes.types.employee.teamLeads.filter(teamLead => teamLead.id !== id);
+    // Takım liderini bul
+    const deletedTeamLead = data.nodes.types.employee.teamLeads.find(teamLead => teamLead.id === id);
 
-    // Eski veri setini güncelle
-    data.nodes.types.employee.teamLeads = updatedTeamLeads;
+    if (!deletedTeamLead) {
+        res.status(404).send('Takım lideri bulunamadı!');
+        return;
+    }
+
+    const parentDepartmentName = deletedTeamLead.parentDepartment;
+    const parentDepartmentID = data.nodes.types.department.find(department => department.name === parentDepartmentName)?.id;
+
+    // Takım liderine bağlı tüm çalışanları bul ve parentLeadlarını'larını güncelle
+    data.nodes.types.employee.workers.forEach(worker => {
+        if (worker.parentLead === deletedTeamLead.name) {
+            // Çalışanın parentLeadini sildim.
+            worker.parentLead = "Atanmadı";
+
+
+            // Bağlantıyı güncelle: Çalışanın bağlantısını yeni departman ID'si yap
+            const workerLinkId = data.links.find(link => link.source === id && link.target === worker.id);
+            if (workerLinkId) {
+                workerLinkId.source = parentDepartmentID;
+            }
+
+            const teamLeadAndDepartmentRelation = data.links.find(link => link.source === id && link.target === parentDepartmentID);
+            if (teamLeadAndDepartmentRelation) {
+                data.links = data.links.filter(link => link !== teamLeadAndDepartmentRelation);
+
+            }
+
+        }
+    });
+
+    // İlgili linkleri güncelle
+    const updatedLinks = data.links.filter(link => link.source !== id);
+
+    // Eski veri setini güncelle: Takım lideri ve bağlantılarını kaldır
+    data.nodes.types.employee.teamLeads = data.nodes.types.employee.teamLeads.filter(teamLead => teamLead.id !== id);
+    data.links = updatedLinks;
 
     // Verileri dosyaya yaz
     fs.writeFileSync('./data.json', JSON.stringify(data));
 
-    res.send('Ekip lideri başarıyla silindi!');
+    res.send('Takım lideri, ilişkili bağlantılar ve departman bağlantısı başarıyla silindi!');
 });
 
-//sorunsuz
+
+
+//it's working
 app.delete('/workers/:id', (req, res) => {
     const { id } = req.params;
 
