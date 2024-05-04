@@ -4,7 +4,7 @@
             "head": [
                 {
                     "id": "1a",
-                    "name": "Koç",
+                    "name": "Koç Holding",
                     "type": "head",
                     "kurulusTarihi": "1926",
                     "logo": "https://www.pdi.com.tr/assets/image/pdi/references/10-Koc-Holding.png",
@@ -5974,8 +5974,23 @@
         },
         {
             "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "target": "4c247146-26a1-4e9f-9166-3cda9b69dc76",
+            "description": "Deniz Kaya to Arçelik Yazılım.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
             "target": "c74b0fa5-c45c-4a95-9a61-cc8a86ef228f",
-            "description": "Zeynep Tekin to Arçelik Elektrik.. Team Lead is: Kaan Gencay"
+            "description": "Zeynep Tekin to Arçelik Yazılım.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "target": "d20e0439-f716-4a32-a3d2-f823a850f678",
+            "description": "Enes Aydoğdu to Arçelik Yazılım.. Team Lead is: Kaan Gencay"
+        },
+        {
+            "source": "5a3c5d9b-8890-47ba-92d1-6dcc9dc7898d",
+            "target": "835a4d45-909b-4ad2-821e-525b254a3a0c",
+            "description": "Dila Şahin to Arçelik Elektrik.. Team Lead is: Kaan Gencay"
         },
         {
             "source": "2b",

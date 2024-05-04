@@ -209,6 +209,7 @@ app.post('/links', (req, res) => {
 
 //       *************    PUT FUNCTIONS    *************
 
+// it's working
 app.put('/head/:id', (req, res) => {
     const { id } = req.params;
     const updatedHead = req.body;
@@ -228,6 +229,7 @@ app.put('/head/:id', (req, res) => {
     }
 });
 
+// it's working
 app.put('/company/:id', (req, res) => {
     const { id } = req.params;
     const updatedCompany = req.body;
@@ -247,6 +249,7 @@ app.put('/company/:id', (req, res) => {
 });
 
 
+// it's working
 app.put('/department/:id', (req, res) => {
     const { id } = req.params;
     const updatedDepartment = req.body;
@@ -265,7 +268,7 @@ app.put('/department/:id', (req, res) => {
     }
 });
 
-
+// it's working
 app.put('/teamLead/:id', (req, res) => {
     const { id } = req.params;
     const updatedTeamLead = req.body;
@@ -273,7 +276,7 @@ app.put('/teamLead/:id', (req, res) => {
     const teamLeadIndex = data.nodes.types.employee.teamLeads.findIndex(teamLead => teamLead.id === id);
     if (teamLeadIndex !== -1) {
         // Ekip liderini güncelle
-        data.nodes.types.employee.teamLeads[teamLeadIndex] = { ...data.nodes.types.employee.teamLeads[teamLeadIndex], ...updatedTeamLead };
+        data.nodes.types.employee.teamLeads[teamLeadIndex] = { ...data.nodes.types.employee.teamLeads[teamLeadIndex], ...updatedTeamLead};
 
         // Verileri dosyaya yaz
         fs.writeFileSync('./data.json', JSON.stringify(data));
@@ -284,7 +287,7 @@ app.put('/teamLead/:id', (req, res) => {
     }
 });
 
-
+// it's working
 app.put('/worker/:id', (req, res) => {
     const { id } = req.params;
     const updatedWorker = req.body;
@@ -310,6 +313,7 @@ app.put('/worker/:id', (req, res) => {
 
 //       *************    DELETE FUNCTIONS    *************
 
+//it's working.
 app.delete('/head/:id', (req, res) => {
     const { id } = req.params;
 
@@ -338,7 +342,7 @@ app.delete('/head/:id', (req, res) => {
     res.send('Başkan düğümü korundu, diğer veriler silindi!');
 });
 
-
+// it's working.
 app.delete('/company/:id', (req, res) => {
     const { id } = req.params;
 
@@ -346,7 +350,7 @@ app.delete('/company/:id', (req, res) => {
     const updatedCompanies = data.nodes.types.company.filter(company => company.id !== id);
 
     // Şirketin bağlantılarını bul ve sil
-    const updatedLinks = data.links.filter(link => link.target !== id);
+    const updatedLinks = data.links.filter(link => link.target !== id && link.source !== id);
 
     // Eski veri setini güncelle
     data.nodes.types.company = updatedCompanies;
@@ -358,14 +362,17 @@ app.delete('/company/:id', (req, res) => {
     res.send('Şirket ve ilişkili bağlantılar başarıyla silindi!');
 });
 
+
+// it's working.
 app.delete('/department/:id', (req, res) => {
     const { id } = req.params;
 
     // Departmanı bul ve sil
     const updatedDepartments = data.nodes.types.department.filter(department => department.id !== id);
-
+    const updatedLinks = data.links.filter(link => link.target !== id && link.source !== id);
     // Eski veri setini güncelle
     data.nodes.types.department = updatedDepartments;
+    data.links = updatedLinks;
 
     // Verileri dosyaya yaz
     fs.writeFileSync('./data.json', JSON.stringify(data));
@@ -373,7 +380,10 @@ app.delete('/department/:id', (req, res) => {
     res.send('Departman başarıyla silindi!');
 });
 
-app.delete('/teamLeads/:id', (req, res) => {
+
+
+//it's working.
+app.delete('/teamLead/:id', (req, res) => {
     const { id } = req.params;
 
     // Takım liderini bul
@@ -391,13 +401,17 @@ app.delete('/teamLeads/:id', (req, res) => {
     data.nodes.types.employee.workers.forEach(worker => {
         if (worker.parentLead === deletedTeamLead.name) {
             // Çalışanın parentLeadini sildim.
-            worker.parentLead = "Atanmadı";
+            worker.parentLead = "--";
 
 
             // Bağlantıyı güncelle: Çalışanın bağlantısını yeni departman ID'si yap
-            const workerLinkId = data.links.find(link => link.source === id && link.target === worker.id);
-            if (workerLinkId) {
-                workerLinkId.source = parentDepartmentID;
+            const workerLinkId1 = data.links.find(link => link.source === id && link.target === worker.id);
+            const workerLinkId2 = data.links.find(link =>  link.target === id && link.source === worker.id);
+            if (workerLinkId1) {
+                workerLinkId1.source = parentDepartmentID;
+            }
+            if (workerLinkId2) {
+                workerLinkId2.target = parentDepartmentID;
             }
 
             const teamLeadAndDepartmentRelation = data.links.find(link => link.source === id && link.target === parentDepartmentID);
@@ -424,7 +438,7 @@ app.delete('/teamLeads/:id', (req, res) => {
 
 
 
-//it's working
+//it's working.
 app.delete('/workers/:id', (req, res) => {
     const { id } = req.params;
 
@@ -432,7 +446,7 @@ app.delete('/workers/:id', (req, res) => {
     const updatedWorkers = data.nodes.types.employee.workers.filter(worker => worker.id !== id);
 
     // İlgili çalışana ait linkleri bul ve sil
-    const updatedLinks = data.links.filter(link => link.source !== id);
+    const updatedLinks = data.links.filter(link => link.source !== id && link.target !== id);
 
     // Eski veri setini güncelle
     data.nodes.types.employee.workers = updatedWorkers;
