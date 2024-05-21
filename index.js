@@ -79,7 +79,7 @@ app.post('/nodes', (req, res) => {
     fs.writeFile('./data.json', JSON.stringify(data), (err) => {
         if (err) {
             console.error('Hata:', err);
-            res.status(500).send('Veri dosyasına yazma hatası');
+            res.status(500).send('Veri dosyasına yazma hataı');
         } else {
             res.send("Success");
         }
@@ -223,9 +223,9 @@ app.put('/head/:id', (req, res) => {
         // Verileri dosyaya yaz
         fs.writeFileSync('./data.json', JSON.stringify(data));
 
-        res.send('Başkan bilgileri güncellendi!');
+        res.send('Ana Düğüm bilgileri güncellendi!');
     } else {
-        res.status(404).send('Başkan bulunamadı!');
+        res.status(404).send('Ana Düğüm bulunamadı!');
     }
 });
 
@@ -306,10 +306,38 @@ app.put('/worker/:id', (req, res) => {
     }
 });
 
+//for worker the teamLead changed 
+    app.put('/links/:source/:target', (req, res) => {
+        const workerID = req.params.source;
+        const parentLeadID = req.params.target;
+
+        // Veritabanındaki linkleri güncelle
+        data.links.forEach(link => {
+            if (link.target === workerID) {
+                link.source = parentLeadID;
+            }
+        });
+
+        // Verileri dosyaya yaz
+        fs.writeFile('./data.json', JSON.stringify(data), (err) => {
+            if (err) {
+                console.error('Bağlantıları JSON dosyasına yazma hatası:', err);
+                res.status(500).send('Bağlantıları JSON dosyasına yazma hatası');
+            } else {
+                console.log('Bağlantılar JSON dosyasına yazıldı');
+                // Başarı durumunda 200 kodu gönder
+                res.status(200).send('Bağlantılar başarıyla güncellendi');
+            }
+        });
+    });
 
 
 
 
+
+
+
+    
 
 //       *************    DELETE FUNCTIONS    *************
 
