@@ -1,3 +1,2 @@
-Backend side. Data repo!  
-
-In order to comply with KVKK, no data has anything to do with reality.!
+Backend and data repo.
+In order to comply with KVKK, no data has anything to do with reality!
